@@ -273,6 +273,5 @@ var c=document.querySelector('[data-copy]');if(c)c.addEventListener('click',func
 var links=[].slice.call(document.querySelectorAll('.toc a'));if(links.length&&'IntersectionObserver'in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(l){l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-20% 0px -70% 0px'});links.forEach(function(l){var t=document.getElementById(l.getAttribute('href').slice(1));t&&io.observe(t)})}
 })();
 </script>
-<div style="position:fixed;bottom:16px;left:16px;z-index:99;background:#f5c400;color:#053947;font-weight:800;padding:10px 16px;border-radius:12px;box-shadow:0 10px 30px #0003;font-size:14px">مسودة — غير منشورة على الموقع</div>
 </body>
 </html>
