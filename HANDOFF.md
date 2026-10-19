@@ -38,3 +38,7 @@ Read this first in any new session. Owner: Hala (replies in Arabic, Levantine/Gu
 - Screenshot-verify before pushing UI changes (desktop + 390px). Changes show within 5–10 min; tell Hala Ctrl+Shift+R if she sees no change.
 - Keep `letter-spacing:0` (Arabic must stay joined). No emoji, no «ميني ماركت», no competitor names in content.
 - Commit trailer: `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+
+## Automation notes (2026-10-19)
+- PRs from `claude/*` branches are squash-merged automatically by `.github/workflows/auto-merge-claude.yml`, which then triggers the build. Add the label `hold` to a PR to review it first.
+- Scheduled posts are released by a cPanel cron (09:05 server time = Riyadh) that runs `deploy/deploy.sh` with `FORCE=1 BUILD=1`; GitHub's own cron (09:07 / 12:07 Riyadh) is only a backup because GitHub delays or skips scheduled runs.
