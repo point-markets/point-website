@@ -281,6 +281,51 @@ def legal_page(d):
         .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">')
 
 
+def offers_page():
+    """Branch offers page (test build only for now): content/offers.json -> /offers/."""
+    data = json.load(open(os.path.join(ROOT, 'content', 'offers.json'), encoding='utf-8'))
+    branch = next((b for b in load_branches() if b['name'] == data['branch']), None)
+    items = data['items']
+    cats = []
+    for it in items:
+        if it['category'] not in cats:
+            cats.append(it['category'])
+    fmt = lambda v: f'{v:.2f}'
+    cards = ''
+    for it in items:
+        pct = round((it['was'] - it['now']) / it['was'] * 100)
+        cards += (f'<article class="offer-card" data-cat="{html.escape(it["category"])}">'
+                  f'<div class="offer-top"><span class="offer-badge">خصم <bdi dir="ltr">{pct}%</bdi></span><span class="offer-cat">{html.escape(it["category"])}</span></div>'
+                  f'<h3>{html.escape(it["name"])}</h3><p class="offer-unit">{html.escape(it["unit"])}</p>'
+                  f'<div class="offer-price"><b>{fmt(it["now"])}</b><span>ر.س</span><s>{fmt(it["was"])}</s></div>'
+                  f'<p class="offer-save">توفّر <bdi dir="ltr">{fmt(round(it["was"] - it["now"], 2))}</bdi> ر.س</p></article>')
+    chips = '<button type="button" class="on" data-cat="">الكل</button>' + ''.join(
+        f'<button type="button" data-cat="{html.escape(c)}">{html.escape(c)}</button>' for c in cats)
+    demo = ('<div class="offers-demo"><b>نموذج تجريبي</b> الأسعار والمنتجات في هذه الصفحة بيانات وهمية لتجربة التصميم فقط، وليست عروضاً حقيقية.</div>'
+            if data.get('demo') else '')
+    where = (f'<a href="{branch["map"]}" target="_blank" rel="noopener">موقع الفرع على الخرائط {icon("pin", 17)}</a>' if branch else '')
+    url = SITE + '/offers/'
+    body = f'''<section class="page-hero"><div class="container">
+<ol class="crumbs"><li><a href="/">الرئيسية</a></li><li aria-current="page">العروض</li></ol>
+<span class="kicker">عروض الفرع</span>
+<h1 style="margin-top:14px">عروض فرع <em>{html.escape(data['branch'])}</em></h1>
+<p class="lead">عروض سارية من {ar_date(data['valid_from'])} إلى {ar_date(data['valid_to'])}، أو حتى نفاد الكمية.</p>
+<div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}</div>
+</div></section>
+<section class="offers"><div class="container">{demo}
+<div class="offers-chips" aria-label="القسم">{chips}</div>
+<div class="offers-grid">{cards}</div>
+<p class="offers-note">العروض والخصومات المعلنة سارية حسب مدتها المحددة وحتى نفاد الكمية، والسعر المعتمد هو السعر المعروض في الفرع وقت الشراء. اطّلع على <a href="/terms/">الشروط والأحكام</a>.</p>
+<div class="br-jahez"><div><b>ما تقدر توصل الفرع؟</b><p>اطلب مقاضيك من بوينت عبر تطبيق جاهز، وتوصلك لباب البيت.</p></div><a class="button yellow" href="{JAHEZ}" target="_blank" rel="noopener">اطلب عبر جاهز {icon('arrow', 17)}</a></div>
+</div></section>
+<script>(function(){{var cs=document.querySelectorAll('.offers-chips button'),cards=document.querySelectorAll('.offer-card');
+cs.forEach(function(b){{b.onclick=function(){{cs.forEach(function(x){{x.classList.toggle('on',x===b)}});cards.forEach(function(c){{c.hidden=!!b.dataset.cat&&c.dataset.cat!==b.dataset.cat}})}}}});}})();</script>'''
+    return page(f"عروض فرع {data['branch']} | بوينت ماركت", 'عروض فرع ' + data['branch'], url, body,
+                {'@context': 'https://schema.org', '@type': 'WebPage', 'name': 'العروض', 'url': url}, SITE + '/assets/img/hero.jpg') \
+        .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">') \
+        .replace('index, follow, max-image-preview:large', 'noindex, nofollow')
+
+
 def load_branches():
     """Single source of truth: the branch list inside the homepage bundle (static/assets/app.js)."""
     a = open(os.path.join(STATIC, 'assets', 'app.js'), encoding='utf-8').read()
@@ -559,6 +604,7 @@ def _build(out, posts, preview):
         write(f'{out}/{d["slug"]}/index.html', legal_page(d))
     write(f'{out}/branches/index.html', branches_page())
     if preview:
+        write(f'{out}/offers/index.html', offers_page())  # test build only until offers go live
         idx = open(f'{out}/index.html', encoding='utf-8').read()
         write(f'{out}/index.html', idx.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"'))
         # noindex is enforced by meta tag + X-Robots-Tag header (crawlers must be allowed to see it)
