@@ -281,6 +281,23 @@ def legal_page(d):
         .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">')
 
 
+OFFER_ICONS = {  # flat placeholder illustrations (replaced by product photos when an item has "image")
+ 'tomato': '<circle cx="60" cy="68" r="34" fill="#e8553e"/><path d="M60 34l-9 10-12-3 8 10-9 9 14-2 8 9 8-9 14 2-9-9 8-10-12 3z" fill="#3fa34d"/><ellipse cx="48" cy="58" rx="7" ry="4" fill="#fff" opacity=".35" transform="rotate(-30 48 58)"/>',
+ 'cucumber': '<rect x="14" y="46" width="92" height="30" rx="15" fill="#3fa34d" transform="rotate(-18 60 61)"/><g fill="#2d7e38" transform="rotate(-18 60 61)"><circle cx="34" cy="58" r="2"/><circle cx="52" cy="66" r="2"/><circle cx="70" cy="56" r="2"/><circle cx="86" cy="64" r="2"/></g>',
+ 'orange': '<circle cx="60" cy="66" r="34" fill="#f28c28"/><path d="M60 32c8-2 14 2 16 8-8 2-14-1-16-8z" fill="#3fa34d"/><ellipse cx="47" cy="55" rx="8" ry="5" fill="#fff" opacity=".35" transform="rotate(-35 47 55)"/>',
+ 'milk': '<path d="M38 36l22-14 22 14v66H38z" fill="#fff" stroke="#11a9c3" stroke-width="4" stroke-linejoin="round"/><path d="M38 36h44" stroke="#11a9c3" stroke-width="4"/><rect x="46" y="54" width="28" height="26" rx="6" fill="#11a9c3"/><circle cx="60" cy="67" r="6" fill="#fff"/>',
+ 'labneh': '<rect x="26" y="52" width="68" height="46" rx="10" fill="#fff" stroke="#11a9c3" stroke-width="4"/><rect x="22" y="42" width="76" height="16" rx="8" fill="#11a9c3"/><path d="M40 78c8-8 16 8 24 0s14 4 16 0" fill="none" stroke="#f5c400" stroke-width="5" stroke-linecap="round"/>',
+ 'eggs': '<path d="M14 70h92l-8 28H22z" fill="#d9b38c"/><g fill="#fff" stroke="#e7dcc9" stroke-width="2"><ellipse cx="34" cy="62" rx="14" ry="18"/><ellipse cx="60" cy="58" rx="14" ry="18"/><ellipse cx="86" cy="62" rx="14" ry="18"/></g>',
+ 'bread': '<path d="M24 58c0-18 16-28 36-28s36 10 36 28v8H24z" fill="#c98a45"/><rect x="24" y="62" width="72" height="36" rx="8" fill="#e0a560"/><g stroke="#b9772f" stroke-width="3" stroke-linecap="round"><path d="M44 46l-4 14"/><path d="M60 42l-2 18"/><path d="M76 46l2 14"/></g>',
+ 'rice': '<path d="M34 28h52l8 74H26z" fill="#fff" stroke="#11a9c3" stroke-width="4" stroke-linejoin="round"/><rect x="38" y="52" width="44" height="28" rx="6" fill="#f5c400"/><path d="M60 42v6M54 44l6 4 6-4" stroke="#11a9c3" stroke-width="3" fill="none" stroke-linecap="round"/>',
+ 'oil': '<rect x="48" y="22" width="24" height="14" rx="3" fill="#3fa34d"/><path d="M50 36h20l10 20v46H40V56z" fill="#6a9b2f"/><rect x="44" y="62" width="32" height="26" rx="5" fill="#fff"/><circle cx="60" cy="75" r="6" fill="#3fa34d"/>',
+ 'dates': '<path d="M24 62h72l-8 36H32z" fill="#8a5a2b"/><g fill="#5b3a17"><ellipse cx="42" cy="56" rx="10" ry="14" transform="rotate(-20 42 56)"/><ellipse cx="62" cy="52" rx="10" ry="14"/><ellipse cx="82" cy="56" rx="10" ry="14" transform="rotate(20 82 56)"/></g><ellipse cx="62" cy="48" rx="3" ry="5" fill="#fff" opacity=".25"/>',
+ 'juice': '<path d="M36 40h48l-6 62H42z" fill="#f28c28"/><path d="M36 40h48l-1.5 16h-45z" fill="#ffd28a"/><path d="M70 40l14-22" stroke="#e8553e" stroke-width="5" stroke-linecap="round"/><circle cx="40" cy="48" r="0"/>',
+ 'coffee': '<path d="M30 54h52v26a20 20 0 0 1-20 20H50a20 20 0 0 1-20-20z" fill="#8a5a2b"/><path d="M82 60h8a10 10 0 0 1 0 20h-8" fill="none" stroke="#8a5a2b" stroke-width="6"/><g fill="none" stroke="#11a9c3" stroke-width="4" stroke-linecap="round"><path d="M44 42c-6-6 6-10 0-16"/><path d="M60 42c-6-6 6-10 0-16"/></g>',
+}
+OFFER_TINT = {'خضار وفواكه': '#eaf8ee', 'ألبان وبيض': '#e6f6f8', 'مخبوزات': '#fdf1dc', 'مواد غذائية': '#fff6cf', 'مشروبات': '#e9f1ff'}
+
+
 def offers_page():
     """Branch offers page (test build only for now): content/offers.json -> /offers/."""
     data = json.load(open(os.path.join(ROOT, 'content', 'offers.json'), encoding='utf-8'))
@@ -294,8 +311,12 @@ def offers_page():
     cards = ''
     for it in items:
         pct = round((it['was'] - it['now']) / it['was'] * 100)
+        media = (f'<img src="{html.escape(it["image"])}" alt="{html.escape(it["name"])}" loading="lazy">' if it.get('image') else
+                 f'<svg viewBox="0 0 120 120" role="img" aria-label="{html.escape(it["name"])}">{OFFER_ICONS.get(it.get("icon"), "")}</svg>')
+        tint = OFFER_TINT.get(it['category'], '#eaf9fc')
         cards += (f'<article class="offer-card" data-cat="{html.escape(it["category"])}">'
-                  f'<div class="offer-top"><span class="offer-badge">خصم <bdi dir="ltr">{pct}%</bdi></span><span class="offer-cat">{html.escape(it["category"])}</span></div>'
+                  f'<div class="offer-media" style="--tint:{tint}">{media}<span class="offer-badge">خصم <bdi dir="ltr">{pct}%</bdi></span></div>'
+                  f'<span class="offer-cat">{html.escape(it["category"])}</span>'
                   f'<h3>{html.escape(it["name"])}</h3><p class="offer-unit">{html.escape(it["unit"])}</p>'
                   f'<div class="offer-price"><b>{fmt(it["now"])}</b><span>ر.س</span><s>{fmt(it["was"])}</s></div>'
                   f'<p class="offer-save">توفّر <bdi dir="ltr">{fmt(round(it["was"] - it["now"], 2))}</bdi> ر.س</p></article>')
