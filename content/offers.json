@@ -19,7 +19,9 @@
       "category": "خضار وفواكه",
       "was": 3.95,
       "now": 2.95,
-      "icon": "cucumber"
+      "icon": "cucumber",
+      "image": "/assets/img/offers/cucumber.webp",
+      "featured": true
     },
     {
       "name": "برتقال",
@@ -27,7 +29,9 @@
       "category": "خضار وفواكه",
       "was": 12.95,
       "now": 8.95,
-      "icon": "orange"
+      "icon": "orange",
+      "image": "/assets/img/offers/orange.webp",
+      "featured": true
     },
     {
       "name": "حليب طازج كامل الدسم",
@@ -46,12 +50,14 @@
       "icon": "labneh"
     },
     {
-      "name": "بيض أبيض",
-      "unit": "30 حبة",
-      "category": "ألبان وبيض",
-      "was": 19.95,
-      "now": 15.95,
-      "icon": "eggs"
+      "name": "جزر طازج",
+      "unit": "عبوة 1 كجم",
+      "category": "خضار وفواكه",
+      "was": 5.95,
+      "now": 4.25,
+      "icon": "carrots",
+      "image": "/assets/img/offers/carrots.webp",
+      "featured": true
     },
     {
       "name": "خبز أسمر شرائح",
@@ -83,7 +89,8 @@
       "category": "مواد غذائية",
       "was": 24.95,
       "now": 18.95,
-      "icon": "dates"
+      "icon": "dates",
+      "image": "/assets/img/offers/dates.webp"
     },
     {
       "name": "عصير برتقال طبيعي",
@@ -101,5 +108,9 @@
       "now": 16.95,
       "icon": "coffee"
     }
-  ]
+  ],
+  "banner": {
+    "title": "عروض مميزة هذا الأسبوع",
+    "sub": "أفضل خصومات فرع الرفيعة، لفترة محدودة"
+  }
 }

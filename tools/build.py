@@ -311,7 +311,7 @@ def offers_page():
     cards = ''
     for it in items:
         pct = round((it['was'] - it['now']) / it['was'] * 100)
-        media = (f'<img src="{html.escape(it["image"])}" alt="{html.escape(it["name"])}" loading="lazy">' if it.get('image') else
+        media = (f'<img class="photo" src="{html.escape(it["image"])}" alt="{html.escape(it["name"])}" loading="lazy">' if it.get('image') else
                  f'<svg viewBox="0 0 120 120" role="img" aria-label="{html.escape(it["name"])}">{OFFER_ICONS.get(it.get("icon"), "")}</svg>')
         tint = OFFER_TINT.get(it['category'], '#eaf9fc')
         cards += (f'<article class="offer-card" data-cat="{html.escape(it["category"])}">'
@@ -320,6 +320,19 @@ def offers_page():
                   f'<h3>{html.escape(it["name"])}</h3><p class="offer-unit">{html.escape(it["unit"])}</p>'
                   f'<div class="offer-price"><b>{fmt(it["now"])}</b><span>ر.س</span><s>{fmt(it["was"])}</s></div>'
                   f'<p class="offer-save">توفّر <bdi dir="ltr">{fmt(round(it["was"] - it["now"], 2))}</bdi> ر.س</p></article>')
+    feats = ''
+    for it in [x for x in items if x.get('featured')][:3]:
+        pct = round((it['was'] - it['now']) / it['was'] * 100)
+        pic = (f'<img src="{html.escape(it["image"])}" alt="{html.escape(it["name"])}">' if it.get('image') else
+               f'<svg viewBox="0 0 120 120" role="img" aria-label="{html.escape(it["name"])}">{OFFER_ICONS.get(it.get("icon"), "")}</svg>')
+        feats += (f'<article class="feat-card"><div class="feat-pic">{pic}</div><div class="feat-body">'
+                  f'<span class="offer-badge">خصم <bdi dir="ltr">{pct}%</bdi></span><h3>{html.escape(it["name"])}</h3>'
+                  f'<p class="offer-unit">{html.escape(it["unit"])}</p>'
+                  f'<div class="offer-price"><b>{fmt(it["now"])}</b><span>ر.س</span><s>{fmt(it["was"])}</s></div></div></article>')
+    bn = data.get('banner') or {}
+    featured = (f'<section class="offers-featured" aria-label="{html.escape(bn.get("title", "عروض مميزة"))}"><div class="container">'
+                f'<div class="feat-head"><span class="kicker">{html.escape(bn.get("title", "عروض مميزة"))}</span><p>{html.escape(bn.get("sub", ""))}</p></div>'
+                f'<div class="feat-row">{feats}</div></div></section>') if feats else ''
     chips = '<button type="button" class="on" data-cat="">الكل</button>' + ''.join(
         f'<button type="button" data-cat="{html.escape(c)}">{html.escape(c)}</button>' for c in cats)
     demo = ('<div class="offers-demo"><b>نموذج تجريبي</b> الأسعار والمنتجات في هذه الصفحة بيانات وهمية لتجربة التصميم فقط، وليست عروضاً حقيقية.</div>'
@@ -333,6 +346,7 @@ def offers_page():
 <p class="lead">عروض سارية من {ar_date(data['valid_from'])} إلى {ar_date(data['valid_to'])}، أو حتى نفاد الكمية.</p>
 <div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}</div>
 </div></section>
+{featured}
 <section class="offers"><div class="container">{demo}
 <div class="offers-chips" aria-label="القسم">{chips}</div>
 <div class="offers-grid">{cards}</div>
