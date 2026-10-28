@@ -341,14 +341,23 @@ def offers_page():
     demo = ''
     where = (f'<a href="{branch["map"]}" target="_blank" rel="noopener">موقع الفرع على الخرائط {icon("pin", 17)}</a>' if branch else '')
     url = SITE + '/offers/'
-    body = f'''<section class="page-hero"><div class="container">
+    jlogo = os.path.exists(os.path.join(STATIC, 'assets', 'img', 'jahez-logo.png'))
+    jmark = '<img src="/assets/img/jahez-logo.png" alt="جاهز">' if jlogo else '<span class="jz-word">جاهز</span>'
+    body = f'''<section class="offers-hero"><div class="container">
 <ol class="crumbs"><li><a href="/">الرئيسية</a></li><li aria-current="page">العروض</li></ol>
-<span class="kicker">عروض الفرع</span>
-<h1 style="margin-top:14px">عروض فرع <em>{html.escape(data['branch'])}</em></h1>
-<p class="lead">عروض سارية من {ar_date(data['valid_from'])} إلى {ar_date(data['valid_to'])}، أو حتى نفاد الكمية.</p>
-<div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}</div>
+<div class="oh-grid"><div class="oh-text">
+<span class="oh-ribbon">عروض الأسبوع</span>
+<h1>عروض فرع <em>{html.escape(data['branch'])}</em></h1>
+<p class="lead">خصومات حقيقية على مقاضيك اليومية، من {ar_date(data['valid_from'])} إلى {ar_date(data['valid_to'])} أو حتى نفاد الكمية.</p>
+<div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}</div></div>
+<div class="oh-stamp" aria-hidden="true"><b>حتى</b><strong>{ar_date(data['valid_to']).split()[0]}</strong><span>{' '.join(ar_date(data['valid_to']).split()[1:])}</span></div></div>
 </div></section>
-{featured}
+'''
+    body += f'''{featured}
+<section class="jz-banner"><div class="container"><a class="jz-card" href="{JAHEZ}" target="_blank" rel="noopener">
+<div class="jz-logo">{jmark}</div>
+<div class="jz-text"><b>نفس العروض تصلك لين باب البيت</b><p>اطلب من بوينت عبر تطبيق جاهز.</p></div>
+<span class="jz-cta">اطلب الآن {icon('arrow', 17)}</span></a></div></section>
 <section class="offers"><div class="container">{demo}
 <div class="offers-chips" aria-label="القسم">{chips}</div>
 <div class="offers-grid">{cards}</div>
