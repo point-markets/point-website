@@ -52,10 +52,13 @@ def load_posts():
             errors.append(f'{fn}: missing front matter'); continue
         fm = yaml.safe_load(m.group(1)) or {}
         body = m.group(2).strip()
-        miss = [k for k in REQUIRED if not fm.get(k)]
+        is_draft = str(fm.get('status', '')).strip().lower() == 'draft'
+        miss = [k for k in REQUIRED if not fm.get(k) and not (k == 'cover' and is_draft)]
         if miss:
             errors.append(f'{fn}: missing {", ".join(miss)}'); continue
         fm['status'] = str(fm['status']).strip().lower()
+        if is_draft:
+            fm.setdefault('cover', '/assets/img/hero.jpg')
         if fm['status'] not in ('draft', 'published'):
             errors.append(f'{fn}: status must be draft or published'); continue
         fm['slug'] = re.sub(r'[^a-z0-9-]+', '-', str(fm['slug']).lower()).strip('-')

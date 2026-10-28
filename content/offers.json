@@ -76,6 +76,36 @@
       "now": 16.95,
       "image": "/assets/img/offers/coffee.webp",
       "fit": "contain"
+    },
+    {
+      "name": "طماطم طازجة",
+      "unit": "1 كجم",
+      "category": "خضار وفواكه",
+      "was": 6.95,
+      "now": 4.95,
+      "icon": "tomato",
+      "image": "/assets/img/offers/tomato.webp",
+      "fit": "contain"
+    },
+    {
+      "name": "حليب المراعي كامل الدسم",
+      "unit": "2.85 لتر",
+      "category": "ألبان وبيض",
+      "was": 14.5,
+      "now": 11.95,
+      "icon": "milk",
+      "image": "/assets/img/offers/milk.webp",
+      "fit": "contain"
+    },
+    {
+      "name": "أرز بسمتي شازية",
+      "unit": "5 كجم",
+      "category": "مواد غذائية",
+      "was": 34.95,
+      "now": 27.95,
+      "icon": "rice",
+      "image": "/assets/img/offers/rice.webp",
+      "fit": "contain"
     }
   ],
   "banner": {
