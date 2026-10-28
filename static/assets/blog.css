@@ -398,3 +398,6 @@ body.blog{background:#fff}
   .feat-body h3{font-size:17px}
   .feat-body .offer-price b{font-size:25px}
 }
+
+.offer-media img.pack{object-fit:contain;padding:14px;background:#fff}
+.offer-media:has(img.pack){border-bottom:1px solid var(--line)}

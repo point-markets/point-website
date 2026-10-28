@@ -311,9 +311,9 @@ def offers_page():
     cards = ''
     for it in items:
         pct = round((it['was'] - it['now']) / it['was'] * 100)
-        media = (f'<img class="photo" src="{html.escape(it["image"])}" alt="{html.escape(it["name"])}" loading="lazy">' if it.get('image') else
+        media = (f'<img class="{"pack" if it.get("fit") == "contain" else "photo"}" src="{html.escape(it["image"])}" alt="{html.escape(it["name"])}" loading="lazy">' if it.get('image') else
                  f'<svg viewBox="0 0 120 120" role="img" aria-label="{html.escape(it["name"])}">{OFFER_ICONS.get(it.get("icon"), "")}</svg>')
-        tint = OFFER_TINT.get(it['category'], '#eaf9fc')
+        tint = '#ffffff' if it.get('fit') == 'contain' else OFFER_TINT.get(it['category'], '#eaf9fc')
         cards += (f'<article class="offer-card" data-cat="{html.escape(it["category"])}">'
                   f'<div class="offer-media" style="--tint:{tint}">{media}<span class="offer-badge">خصم <bdi dir="ltr">{pct}%</bdi></span></div>'
                   f'<span class="offer-cat">{html.escape(it["category"])}</span>'
@@ -335,8 +335,7 @@ def offers_page():
                 f'<div class="feat-row">{feats}</div></div></section>') if feats else ''
     chips = '<button type="button" class="on" data-cat="">الكل</button>' + ''.join(
         f'<button type="button" data-cat="{html.escape(c)}">{html.escape(c)}</button>' for c in cats)
-    demo = ('<div class="offers-demo"><b>نموذج تجريبي</b> الأسعار والمنتجات في هذه الصفحة بيانات وهمية لتجربة التصميم فقط، وليست عروضاً حقيقية.</div>'
-            if data.get('demo') else '')
+    demo = ''
     where = (f'<a href="{branch["map"]}" target="_blank" rel="noopener">موقع الفرع على الخرائط {icon("pin", 17)}</a>' if branch else '')
     url = SITE + '/offers/'
     body = f'''<section class="page-hero"><div class="container">

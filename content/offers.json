@@ -6,20 +6,11 @@
   "valid_to": "2026-10-31",
   "items": [
     {
-      "name": "طماطم طازجة",
-      "unit": "1 كجم",
-      "category": "خضار وفواكه",
-      "was": 6.95,
-      "now": 4.95,
-      "icon": "tomato"
-    },
-    {
       "name": "خيار بلدي",
       "unit": "عبوة 1 كجم",
       "category": "خضار وفواكه",
       "was": 3.95,
       "now": 2.95,
-      "icon": "cucumber",
       "image": "/assets/img/offers/cucumber.webp",
       "featured": true
     },
@@ -29,25 +20,17 @@
       "category": "خضار وفواكه",
       "was": 12.95,
       "now": 8.95,
-      "icon": "orange",
       "image": "/assets/img/offers/orange.webp",
       "featured": true
     },
     {
-      "name": "حليب طازج كامل الدسم",
-      "unit": "2 لتر",
-      "category": "ألبان وبيض",
-      "was": 11.5,
-      "now": 8.95,
-      "icon": "milk"
-    },
-    {
-      "name": "لبنة",
-      "unit": "400 جم",
+      "name": "لبنة فاخرة كاملة الدسم",
+      "unit": "عبوة عائلية",
       "category": "ألبان وبيض",
       "was": 9.95,
       "now": 7.5,
-      "icon": "labneh"
+      "image": "/assets/img/offers/labneh.webp",
+      "fit": "contain"
     },
     {
       "name": "جزر طازج",
@@ -55,50 +38,35 @@
       "category": "خضار وفواكه",
       "was": 5.95,
       "now": 4.25,
-      "icon": "carrots",
       "image": "/assets/img/offers/carrots.webp",
       "featured": true
     },
     {
-      "name": "خبز أسمر شرائح",
-      "unit": "600 جم",
+      "name": "خبز توست أسمر",
+      "unit": "شرائح",
       "category": "مخبوزات",
       "was": 6.5,
       "now": 4.95,
-      "icon": "bread"
+      "image": "/assets/img/offers/bread.webp",
+      "fit": "contain"
     },
     {
-      "name": "أرز بسمتي",
-      "unit": "5 كجم",
-      "category": "مواد غذائية",
-      "was": 34.95,
-      "now": 27.95,
-      "icon": "rice"
-    },
-    {
-      "name": "زيت زيتون بكر",
-      "unit": "500 مل",
+      "name": "زيت زيتون بكر ممتاز",
+      "unit": "1 لتر",
       "category": "مواد غذائية",
       "was": 29.95,
       "now": 22.95,
-      "icon": "oil"
+      "image": "/assets/img/offers/oil.webp",
+      "fit": "contain"
     },
     {
-      "name": "تمر سكري",
-      "unit": "1 كجم",
-      "category": "مواد غذائية",
-      "was": 24.95,
-      "now": 18.95,
-      "icon": "dates",
-      "image": "/assets/img/offers/dates.webp"
-    },
-    {
-      "name": "عصير برتقال طبيعي",
-      "unit": "1 لتر",
+      "name": "عصير برتقال 100%",
+      "unit": "1.5 لتر",
       "category": "مشروبات",
       "was": 9.95,
       "now": 6.95,
-      "icon": "juice"
+      "image": "/assets/img/offers/juice.webp",
+      "fit": "contain"
     },
     {
       "name": "قهوة عربية",
@@ -106,7 +74,8 @@
       "category": "مشروبات",
       "was": 21.95,
       "now": 16.95,
-      "icon": "coffee"
+      "image": "/assets/img/offers/coffee.webp",
+      "fit": "contain"
     }
   ],
   "banner": {
