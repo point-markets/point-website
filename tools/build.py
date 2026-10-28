@@ -350,6 +350,7 @@ def offers_page():
 <h1>عروض فرع <em>{html.escape(data['branch'])}</em></h1>
 <p class="lead">خصومات حقيقية على مقاضيك اليومية، من {ar_date(data['valid_from'])} إلى {ar_date(data['valid_to'])} أو حتى نفاد الكمية.</p>
 <div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}</div></div>
+<svg class="oh-art" viewBox="0 0 300 260" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M70 96h160l14 140H56z" fill="rgba(255,255,255,.08)"/><path d="M110 96c0-34 20-54 40-54s40 20 40 54"/><circle cx="150" cy="168" r="34" fill="#f5c400" stroke="#002b3c"/><path d="M137 184l26-32" stroke="#002b3c"/><circle cx="136" cy="153" r="5" stroke="#002b3c"/><circle cx="164" cy="183" r="5" stroke="#002b3c"/><g transform="rotate(14 250 60)"><path d="M214 34h44l22 22-34 34-32-34z" fill="#f5c400" stroke="#002b3c"/><circle cx="232" cy="52" r="5" stroke="#002b3c"/></g><path d="M40 60l8 18 18 8-18 8-8 18-8-18-18-8 18-8z"/><path d="M270 160l5 11 11 5-11 5-5 11-5-11-11-5 11-5z"/></svg>
 <div class="oh-stamp" aria-hidden="true"><b>حتى</b><strong>{ar_date(data['valid_to']).split()[0]}</strong><span>{' '.join(ar_date(data['valid_to']).split()[1:])}</span></div></div>
 </div></section>
 '''
