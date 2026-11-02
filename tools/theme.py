@@ -43,6 +43,7 @@ def page(title, desc, canonical, body, schema, og_image, og_type='website', extr
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="fcJ9HEo8tZQ8GUuNBccupO6SxTw8x_jQsodkg5lGLy8">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{canonical}">
