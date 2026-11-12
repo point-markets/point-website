@@ -1,11 +1,13 @@
 ---
 title: 'قائمة مقاضي للطالب ومن يسكن وحده: أساسيات بميزانية صغيرة'
 slug: student-single-grocery-list
-status: draft
-date: '2026-11-25 09:00:00'
-modified: '2026-11-25 09:00:00'
+status: published
+date: '2026-11-17 16:00:00'
+modified: '2026-11-17 16:00:00'
 category: نصائح وأدلة تسوق
 description: 'قائمة مقاضي عملية للطلاب ومن يسكن وحده: أساسيات المطبخ، وجبات سريعة اقتصادية، وطريقة تقسيم الميزانية وتقليل الهدر.'
+cover: /assets/img/student-single-grocery-list.webp
+cover_alt: قدر طبخ مع بخار وبيضة وطماطم على خلفية زرقاء بهوية بوينت
 focus_keyword: قائمة مقاضي للطالب
 ---
 

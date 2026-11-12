@@ -1,11 +1,13 @@
 ---
 title: 'الجمعة البيضاء ومقاضي البيت: كيف تستفيد من العروض دون هدر؟'
 slug: white-friday-grocery-shopping-tips
-status: draft
-date: '2026-11-12 09:00:00'
-modified: '2026-11-12 09:00:00'
+status: published
+date: '2026-11-14 16:00:00'
+modified: '2026-11-14 16:00:00'
 category: نصائح وأدلة تسوق
 description: 'موسم الجمعة البيضاء قادم. دليل عملي لتسوق مقاضي البيت في العروض: ما يستحق التخزين، وما لا يستحق، وكيف تقارن الأسعار بذكاء دون هدر.'
+cover: /assets/img/white-friday-grocery-shopping-tips.webp
+cover_alt: سلة تسوق عليها علامة خصم مع بطاقات أسعار على خلفية زرقاء بهوية بوينت
 focus_keyword: الجمعة البيضاء مقاضي البيت
 ---
 
