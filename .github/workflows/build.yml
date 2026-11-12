@@ -10,6 +10,7 @@ on:
     # 09:00 and again at noon as a backup (the build is idempotent).
     - cron: '7 6 * * *'   # 09:07 Riyadh
     - cron: '7 9 * * *'   # 12:07 Riyadh (backup)
+    - cron: '7 13 * * *'  # 16:07 Riyadh (4 PM releases)
 
 permissions:
   contents: write

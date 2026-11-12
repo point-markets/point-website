@@ -1,11 +1,13 @@
 ---
 title: 'المقاضي أونلاين أم من المتجر؟ دليل يساعدك تختار وتوفّر'
 slug: online-grocery-delivery-vs-store-tips
-status: draft
-date: '2026-11-22 09:00:00'
-modified: '2026-11-22 09:00:00'
+status: published
+date: '2026-11-16 16:00:00'
+modified: '2026-11-16 16:00:00'
 category: نصائح وأدلة تسوق
 description: 'مقارنة عملية بين طلب المقاضي عبر تطبيقات التوصيل والتسوق من الفرع: متى يوفر لك كل خيار، وكيف تتجنب الأخطاء الشائعة عند طلب الطازج.'
+cover: /assets/img/online-grocery-delivery-vs-store-tips.webp
+cover_alt: هاتف لطلب المقاضي أونلاين وسهم يشير إلى فرع المتجر على خلفية زرقاء بهوية بوينت
 focus_keyword: طلب المقاضي أونلاين
 ---
 

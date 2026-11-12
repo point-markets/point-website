@@ -11,6 +11,8 @@
 #
 # Daily release of scheduled posts (cPanel cron, 09:05 server time = Riyadh):
 #   FORCE=1 BUILD=1 PREVIEW_DIR=$HOME/public_html/test.pointmarkets.sa LIVE_DIR=$HOME/public_html /bin/bash $HOME/repositories/point-website/deploy/deploy.sh >> $HOME/point-deploy.log 2>&1
+#
+# Second daily release for 4 PM posts (cPanel cron, 16:05 server time = Riyadh): same command as above at 16:05.
 # ------------------------------------------------------------------
 set -e
 export PATH="/usr/local/cpanel/3rdparty/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
