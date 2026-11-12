@@ -1,21 +1,5 @@
 [
  {
-  "title": "قائمة مقاضي للطالب ومن يسكن وحده: أساسيات بميزانية صغيرة",
-  "slug": "student-single-grocery-list",
-  "url": "https://pointmarkets.sa/blog/student-single-grocery-list/",
-  "status": "draft",
-  "date": "2026-11-25 09:00:00",
-  "focus_keyword": "قائمة مقاضي للطالب"
- },
- {
-  "title": "المقاضي أونلاين أم من المتجر؟ دليل يساعدك تختار وتوفّر",
-  "slug": "online-grocery-delivery-vs-store-tips",
-  "url": "https://pointmarkets.sa/blog/online-grocery-delivery-vs-store-tips/",
-  "status": "draft",
-  "date": "2026-11-22 09:00:00",
-  "focus_keyword": "طلب المقاضي أونلاين"
- },
- {
   "title": "كيف تتابع تحذيرات سلامة الغذاء وسحب المنتجات في السعودية؟",
   "slug": "how-to-follow-food-recalls-sfda",
   "url": "https://pointmarkets.sa/blog/how-to-follow-food-recalls-sfda/",
@@ -24,11 +8,27 @@
   "focus_keyword": "تحذيرات الغذاء والدواء سحب المنتجات"
  },
  {
+  "title": "قائمة مقاضي للطالب ومن يسكن وحده: أساسيات بميزانية صغيرة",
+  "slug": "student-single-grocery-list",
+  "url": "https://pointmarkets.sa/blog/student-single-grocery-list/",
+  "status": "draft",
+  "date": "2026-11-17 16:00:00",
+  "focus_keyword": "قائمة مقاضي للطالب"
+ },
+ {
+  "title": "المقاضي أونلاين أم من المتجر؟ دليل يساعدك تختار وتوفّر",
+  "slug": "online-grocery-delivery-vs-store-tips",
+  "url": "https://pointmarkets.sa/blog/online-grocery-delivery-vs-store-tips/",
+  "status": "draft",
+  "date": "2026-11-16 16:00:00",
+  "focus_keyword": "طلب المقاضي أونلاين"
+ },
+ {
   "title": "مقارنة سعر الوحدة: كيف تعرف أي عبوة أوفر فعلاً؟",
   "slug": "unit-price-comparison-guide",
   "url": "https://pointmarkets.sa/blog/unit-price-comparison-guide/",
   "status": "draft",
-  "date": "2026-11-15 09:00:00",
+  "date": "2026-11-15 16:00:00",
   "focus_keyword": "مقارنة سعر الوحدة"
  },
  {
@@ -36,8 +36,16 @@
   "slug": "white-friday-grocery-shopping-tips",
   "url": "https://pointmarkets.sa/blog/white-friday-grocery-shopping-tips/",
   "status": "draft",
-  "date": "2026-11-12 09:00:00",
+  "date": "2026-11-14 16:00:00",
   "focus_keyword": "الجمعة البيضاء مقاضي البيت"
+ },
+ {
+  "title": "المراعي تدخل سوق اللحوم الحمراء بعلامة «هبور»: ماذا يعني للمتسوق؟",
+  "slug": "almarai-haboor-red-meat-launch",
+  "url": "https://pointmarkets.sa/blog/almarai-haboor-red-meat-launch/",
+  "status": "draft",
+  "date": "2026-11-13 16:00:00",
+  "focus_keyword": "المراعي هبور اللحوم الحمراء"
  },
  {
   "title": "الأطعمة تتصدر إنفاق المستهلكين في السعودية: قراءة في أرقام ساما لأول أسبوع من نوفمبر 2026",
@@ -54,14 +62,6 @@
   "status": "draft",
   "date": "2026-11-12 07:55:00",
   "focus_keyword": "نظام حماية المستهلك الجديد"
- },
- {
-  "title": "المراعي تدخل سوق اللحوم الحمراء بعلامة «هبور»: ماذا يعني للمتسوق؟",
-  "slug": "almarai-haboor-red-meat-launch",
-  "url": "https://pointmarkets.sa/blog/almarai-haboor-red-meat-launch/",
-  "status": "draft",
-  "date": "2026-10-28 09:00:00",
-  "focus_keyword": "المراعي هبور اللحوم الحمراء"
  },
  {
   "title": "تحضير وجبات الأسبوع بميزانية: خطة ميل بريب للعائلة",
