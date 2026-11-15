@@ -2,8 +2,8 @@
 title: 'مقارنة سعر الوحدة: كيف تعرف أي عبوة أوفر فعلاً؟'
 slug: unit-price-comparison-guide
 status: published
-date: '2026-11-15 16:00:00'
-modified: '2026-11-15 16:00:00'
+date: '2026-11-16 09:00:00'
+modified: '2026-11-16 09:00:00'
 category: نصائح وأدلة تسوق
 description: 'سعر العبوة الأقل ليس دائماً الأوفر. تعلّم حساب سعر الكيلو واللتر والحبة بخطوات بسيطة لتقارن بين الأحجام والماركات وتوفر في ميزانية البيت.'
 cover: /assets/img/unit-price-comparison-guide.webp
