@@ -438,3 +438,7 @@ body.blog{background:#fff}
 .offers-grid .offer-card,.offers-chips{position:relative}
 .oh-art{position:absolute;left:21%;top:52%;transform:translateY(-50%);width:300px;opacity:.95;pointer-events:none}
 @media(max-width:720px){.oh-art{display:none}}
+
+/* covers that carry text: show the whole image, no 21:9 crop */
+.article-cover.full{aspect-ratio:auto}
+.article-cover.full img{height:auto}
