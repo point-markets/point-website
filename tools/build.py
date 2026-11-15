@@ -181,7 +181,7 @@ def article(p, all_posts, preview):
 <div class="meta-row"><span>{icon('cal', 17)}<time datetime="{p['date'][:10]}">{ar_date(p['date'])}</time></span><span>{icon('clock', 17)}{p['mins']} دقائق قراءة</span><span>فريق بوينت ماركت</span></div>
 </div></section>
 <div class="article-wrap"><div class="container">
-<figure class="article-cover"><img src="{p['cover']}" alt="{html.escape(p['cover_alt'])}" fetchpriority="high"></figure>
+<figure class="article-cover{' full' if p.get('cover_fit') == 'full' else ''}"><img src="{p['cover']}" alt="{html.escape(p['cover_alt'])}" fetchpriority="high"></figure>
 <div class="article-grid">
 <article class="prose">
 {p['body']}
