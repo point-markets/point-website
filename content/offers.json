@@ -134,7 +134,7 @@
    "was": 80.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p02f-1.webp"
+   "img": "/assets/img/offers/p/001.webp"
   },
   {
    "cat": "rice",
@@ -143,7 +143,7 @@
    "was": 58.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p02f-2.webp"
+   "img": "/assets/img/offers/p/002.webp"
   },
   {
    "cat": "rice",
@@ -152,7 +152,7 @@
    "was": 3.5,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p02f-3.webp"
+   "img": "/assets/img/offers/p/003.webp"
   },
   {
    "cat": "rice",
@@ -161,7 +161,7 @@
    "was": 3.5,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p02f-4.webp"
+   "img": "/assets/img/offers/p/004.webp"
   },
   {
    "cat": "rice",
@@ -170,7 +170,7 @@
    "was": 3.5,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p02f-5.webp"
+   "img": "/assets/img/offers/p/005.webp"
   },
   {
    "cat": "rice",
@@ -178,8 +178,7 @@
    "now": 34.8,
    "was": 48.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-01.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/006.webp"
   },
   {
    "cat": "rice",
@@ -187,8 +186,7 @@
    "now": 17.95,
    "was": 20.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-02.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/007.webp"
   },
   {
    "cat": "rice",
@@ -196,8 +194,7 @@
    "now": 128.0,
    "was": 130.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-03.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/008.webp"
   },
   {
    "cat": "rice",
@@ -205,8 +202,7 @@
    "now": 64.95,
    "was": 89.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-04.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/009.webp"
   },
   {
    "cat": "rice",
@@ -214,8 +210,7 @@
    "now": 34.8,
    "was": 48.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-05.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/010.webp"
   },
   {
    "cat": "rice",
@@ -223,8 +218,7 @@
    "now": 34.95,
    "was": 46.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-06.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/011.webp"
   },
   {
    "cat": "rice",
@@ -232,8 +226,7 @@
    "now": 49.8,
    "was": 55.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-07.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/012.webp"
   },
   {
    "cat": "rice",
@@ -241,8 +234,7 @@
    "now": 28.8,
    "was": 36.5,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-08.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/013.webp"
   },
   {
    "cat": "rice",
@@ -250,8 +242,7 @@
    "now": 19.95,
    "was": 22.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-09.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/014.webp"
   },
   {
    "cat": "rice",
@@ -259,8 +250,7 @@
    "now": 14.95,
    "was": 18.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-10.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/015.webp"
   },
   {
    "cat": "rice",
@@ -268,8 +258,7 @@
    "now": 23.0,
    "was": 25.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-11.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/016.webp"
   },
   {
    "cat": "rice",
@@ -277,8 +266,7 @@
    "now": 24.95,
    "was": 29.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p02-12.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/017.webp"
   },
   {
    "cat": "oils",
@@ -287,7 +275,7 @@
    "was": 14.75,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p03f-1.webp"
+   "img": "/assets/img/offers/p/018.webp"
   },
   {
    "cat": "oils",
@@ -296,7 +284,7 @@
    "was": 21.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p03f-2.webp"
+   "img": "/assets/img/offers/p/019.webp"
   },
   {
    "cat": "oils",
@@ -305,7 +293,7 @@
    "was": 25.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p03f-3.webp"
+   "img": "/assets/img/offers/p/020.webp"
   },
   {
    "cat": "oils",
@@ -314,7 +302,7 @@
    "was": 16.5,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p03f-4.webp"
+   "img": "/assets/img/offers/p/021.webp"
   },
   {
    "cat": "oils",
@@ -323,7 +311,7 @@
    "was": 72.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p03f-5.webp"
+   "img": "/assets/img/offers/p/022.webp"
   },
   {
    "cat": "oils",
@@ -331,7 +319,7 @@
    "now": 19.95,
    "was": 21.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-01.webp"
+   "img": "/assets/img/offers/p/023.webp"
   },
   {
    "cat": "oils",
@@ -339,7 +327,7 @@
    "now": 11.5,
    "was": 14.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-02.webp"
+   "img": "/assets/img/offers/p/024.webp"
   },
   {
    "cat": "oils",
@@ -347,7 +335,7 @@
    "now": 11.5,
    "was": 13.99,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-03.webp"
+   "img": "/assets/img/offers/p/025.webp"
   },
   {
    "cat": "oils",
@@ -355,7 +343,7 @@
    "now": 10.95,
    "was": 13.99,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-04.webp"
+   "img": "/assets/img/offers/p/026.webp"
   },
   {
    "cat": "oils",
@@ -363,7 +351,7 @@
    "now": 13.95,
    "was": 19.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-05.webp"
+   "img": "/assets/img/offers/p/027.webp"
   },
   {
    "cat": "oils",
@@ -371,7 +359,7 @@
    "now": 14.95,
    "was": 16.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-06.webp"
+   "img": "/assets/img/offers/p/028.webp"
   },
   {
    "cat": "oils",
@@ -379,7 +367,7 @@
    "now": 34.95,
    "was": 42.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-07.webp"
+   "img": "/assets/img/offers/p/029.webp"
   },
   {
    "cat": "oils",
@@ -387,7 +375,7 @@
    "now": 17.95,
    "was": 20.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-08.webp"
+   "img": "/assets/img/offers/p/030.webp"
   },
   {
    "cat": "oils",
@@ -395,7 +383,7 @@
    "now": 30.5,
    "was": 32.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-09.webp"
+   "img": "/assets/img/offers/p/031.webp"
   },
   {
    "cat": "oils",
@@ -403,7 +391,7 @@
    "now": 5.5,
    "was": 7.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-10.webp"
+   "img": "/assets/img/offers/p/032.webp"
   },
   {
    "cat": "oils",
@@ -411,7 +399,7 @@
    "now": 5.5,
    "was": 7.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-11.webp"
+   "img": "/assets/img/offers/p/033.webp"
   },
   {
    "cat": "oils",
@@ -419,7 +407,7 @@
    "now": 5.5,
    "was": 7.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-12.webp"
+   "img": "/assets/img/offers/p/034.webp"
   },
   {
    "cat": "oils",
@@ -427,7 +415,7 @@
    "now": 5.5,
    "was": 7.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-13.webp"
+   "img": "/assets/img/offers/p/035.webp"
   },
   {
    "cat": "oils",
@@ -435,7 +423,7 @@
    "now": 5.5,
    "was": 7.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-14.webp"
+   "img": "/assets/img/offers/p/036.webp"
   },
   {
    "cat": "oils",
@@ -443,7 +431,7 @@
    "now": 31.0,
    "was": 37.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-15.webp"
+   "img": "/assets/img/offers/p/037.webp"
   },
   {
    "cat": "oils",
@@ -451,7 +439,7 @@
    "now": 23.95,
    "was": 28.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-16.webp"
+   "img": "/assets/img/offers/p/038.webp"
   },
   {
    "cat": "oils",
@@ -459,7 +447,7 @@
    "now": 9.95,
    "was": 12.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-17.webp"
+   "img": "/assets/img/offers/p/039.webp"
   },
   {
    "cat": "oils",
@@ -467,7 +455,7 @@
    "now": 14.8,
    "was": 17.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p03-18.webp"
+   "img": "/assets/img/offers/p/040.webp"
   },
   {
    "cat": "meat",
@@ -476,7 +464,7 @@
    "was": 43.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p04f-1.webp"
+   "img": "/assets/img/offers/p/041.webp"
   },
   {
    "cat": "meat",
@@ -485,8 +473,7 @@
    "was": 34.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p04f-2.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/042.webp"
   },
   {
    "cat": "meat",
@@ -495,8 +482,7 @@
    "was": 27.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p04f-3.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/043.webp"
   },
   {
    "cat": "meat",
@@ -505,8 +491,7 @@
    "was": 27.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p04f-4.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/044.webp"
   },
   {
    "cat": "meat",
@@ -514,8 +499,7 @@
    "now": 32.95,
    "was": 37.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p04-01.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/045.webp"
   },
   {
    "cat": "meat",
@@ -523,7 +507,7 @@
    "now": 14.95,
    "was": null,
    "kg": false,
-   "img": "/assets/img/offers/p/p04-02.webp"
+   "img": "/assets/img/offers/p/046.webp"
   },
   {
    "cat": "meat",
@@ -531,7 +515,7 @@
    "now": 15.95,
    "was": null,
    "kg": false,
-   "img": "/assets/img/offers/p/p04-03.webp"
+   "img": "/assets/img/offers/p/047.webp"
   },
   {
    "cat": "meat",
@@ -539,7 +523,7 @@
    "now": 15.95,
    "was": 18.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p04-04.webp"
+   "img": "/assets/img/offers/p/048.webp"
   },
   {
    "cat": "meat",
@@ -547,7 +531,7 @@
    "now": 17.95,
    "was": 22.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p04-05.webp"
+   "img": "/assets/img/offers/p/049.webp"
   },
   {
    "cat": "meat",
@@ -555,8 +539,7 @@
    "now": 54.95,
    "was": 69.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-06.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/050.webp"
   },
   {
    "cat": "meat",
@@ -564,8 +547,7 @@
    "now": 85.95,
    "was": 99.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-07.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/051.webp"
   },
   {
    "cat": "meat",
@@ -573,8 +555,7 @@
    "now": 55.95,
    "was": 65.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-08.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/052.webp"
   },
   {
    "cat": "meat",
@@ -582,8 +563,7 @@
    "now": 34.95,
    "was": 38.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-09.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/053.webp"
   },
   {
    "cat": "meat",
@@ -591,8 +571,7 @@
    "now": 34.95,
    "was": 38.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-10.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/054.webp"
   },
   {
    "cat": "meat",
@@ -600,8 +579,7 @@
    "now": 38.95,
    "was": 44.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-11.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/055.webp"
   },
   {
    "cat": "meat",
@@ -609,8 +587,7 @@
    "now": 28.95,
    "was": 36.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-12.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/056.webp"
   },
   {
    "cat": "meat",
@@ -618,8 +595,7 @@
    "now": 65.95,
    "was": 79.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-13.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/057.webp"
   },
   {
    "cat": "meat",
@@ -627,8 +603,7 @@
    "now": 41.95,
    "was": 49.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-14.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/058.webp"
   },
   {
    "cat": "meat",
@@ -636,8 +611,7 @@
    "now": 45.95,
    "was": 55.0,
    "kg": true,
-   "img": "/assets/img/offers/p/p04-15.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/059.webp"
   },
   {
    "cat": "cheese",
@@ -646,7 +620,7 @@
    "was": 19.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p05f-1.webp"
+   "img": "/assets/img/offers/p/060.webp"
   },
   {
    "cat": "cheese",
@@ -655,8 +629,7 @@
    "was": 19.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p05f-2.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/061.webp"
   },
   {
    "cat": "cheese",
@@ -665,8 +638,7 @@
    "was": 19.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p05f-3.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/062.webp"
   },
   {
    "cat": "cheese",
@@ -675,8 +647,7 @@
    "was": 19.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p05f-4.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/063.webp"
   },
   {
    "cat": "cheese",
@@ -684,8 +655,7 @@
    "now": 17.95,
    "was": 21.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-01.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/064.webp"
   },
   {
    "cat": "cheese",
@@ -693,8 +663,7 @@
    "now": 41.95,
    "was": 49.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-02.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/065.webp"
   },
   {
    "cat": "cheese",
@@ -702,8 +671,7 @@
    "now": 35.95,
    "was": 49.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-03.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/066.webp"
   },
   {
    "cat": "cheese",
@@ -711,8 +679,7 @@
    "now": 19.95,
    "was": 27.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-04.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/067.webp"
   },
   {
    "cat": "cheese",
@@ -720,8 +687,7 @@
    "now": 46.95,
    "was": 59.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-05.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/068.webp"
   },
   {
    "cat": "cheese",
@@ -729,8 +695,7 @@
    "now": 45.95,
    "was": 55.0,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-06.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/069.webp"
   },
   {
    "cat": "cheese",
@@ -738,8 +703,7 @@
    "now": 41.95,
    "was": 49.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-07.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/070.webp"
   },
   {
    "cat": "cheese",
@@ -747,8 +711,7 @@
    "now": 68.95,
    "was": 74.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-08.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/071.webp"
   },
   {
    "cat": "cheese",
@@ -756,8 +719,7 @@
    "now": 14.5,
    "was": 17.5,
    "kg": false,
-   "img": "/assets/img/offers/p/p05-09.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/072.webp"
   },
   {
    "cat": "cheese",
@@ -765,8 +727,7 @@
    "now": 95.95,
    "was": 129.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-10.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/073.webp"
   },
   {
    "cat": "cheese",
@@ -774,7 +735,7 @@
    "now": 28.95,
    "was": 32.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-11.webp"
+   "img": "/assets/img/offers/p/074.webp"
   },
   {
    "cat": "cheese",
@@ -782,7 +743,7 @@
    "now": 28.95,
    "was": 32.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-12.webp"
+   "img": "/assets/img/offers/p/075.webp"
   },
   {
    "cat": "cheese",
@@ -790,7 +751,7 @@
    "now": 29.95,
    "was": 34.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-13.webp"
+   "img": "/assets/img/offers/p/076.webp"
   },
   {
    "cat": "cheese",
@@ -798,7 +759,7 @@
    "now": 29.95,
    "was": 34.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-14.webp"
+   "img": "/assets/img/offers/p/077.webp"
   },
   {
    "cat": "cheese",
@@ -806,7 +767,7 @@
    "now": 29.95,
    "was": 34.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p05-15.webp"
+   "img": "/assets/img/offers/p/078.webp"
   },
   {
    "cat": "pickles",
@@ -815,7 +776,7 @@
    "was": 24.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p06f-1.webp"
+   "img": "/assets/img/offers/p/079.webp"
   },
   {
    "cat": "pickles",
@@ -824,7 +785,7 @@
    "was": 14.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p06f-2.webp"
+   "img": "/assets/img/offers/p/080.webp"
   },
   {
    "cat": "pickles",
@@ -833,7 +794,7 @@
    "was": 22.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p06f-3.webp"
+   "img": "/assets/img/offers/p/081.webp"
   },
   {
    "cat": "pickles",
@@ -842,7 +803,7 @@
    "was": 5.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p06f-4.webp"
+   "img": "/assets/img/offers/p/082.webp"
   },
   {
    "cat": "pickles",
@@ -851,7 +812,7 @@
    "was": 5.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p06f-5.webp"
+   "img": "/assets/img/offers/p/083.webp"
   },
   {
    "cat": "pickles",
@@ -859,8 +820,7 @@
    "now": 17.95,
    "was": 24.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-01.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/084.webp"
   },
   {
    "cat": "pickles",
@@ -868,8 +828,7 @@
    "now": 14.95,
    "was": 19.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-02.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/085.webp"
   },
   {
    "cat": "pickles",
@@ -877,8 +836,7 @@
    "now": 14.95,
    "was": 19.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-03.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/086.webp"
   },
   {
    "cat": "pickles",
@@ -886,8 +844,7 @@
    "now": 18.95,
    "was": 21.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-04.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/087.webp"
   },
   {
    "cat": "pickles",
@@ -895,8 +852,7 @@
    "now": 15.95,
    "was": 19.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-05.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/088.webp"
   },
   {
    "cat": "pickles",
@@ -904,8 +860,7 @@
    "now": 15.95,
    "was": 19.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-06.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/089.webp"
   },
   {
    "cat": "pickles",
@@ -913,8 +868,7 @@
    "now": 15.95,
    "was": 19.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-07.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/090.webp"
   },
   {
    "cat": "pickles",
@@ -922,8 +876,7 @@
    "now": 15.95,
    "was": 19.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p06-08.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/091.webp"
   },
   {
    "cat": "pickles",
@@ -931,8 +884,7 @@
    "now": 15.95,
    "was": 19.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p06-09.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/092.webp"
   },
   {
    "cat": "pickles",
@@ -940,8 +892,7 @@
    "now": 15.95,
    "was": 19.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p06-10.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/093.webp"
   },
   {
    "cat": "pickles",
@@ -949,8 +900,7 @@
    "now": 13.95,
    "was": 19.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p06-11.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/094.webp"
   },
   {
    "cat": "pickles",
@@ -958,8 +908,7 @@
    "now": 4.95,
    "was": 6.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p06-12.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/095.webp"
   },
   {
    "cat": "veg",
@@ -968,8 +917,7 @@
    "was": 7.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p07f-1.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/096.webp"
   },
   {
    "cat": "veg",
@@ -978,8 +926,7 @@
    "was": 5.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p07f-2.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/097.webp"
   },
   {
    "cat": "veg",
@@ -988,8 +935,7 @@
    "was": 6.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p07f-3.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/098.webp"
   },
   {
    "cat": "veg",
@@ -998,8 +944,7 @@
    "was": 6.95,
    "kg": true,
    "featured": true,
-   "img": "/assets/img/offers/p/p07f-4.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/099.webp"
   },
   {
    "cat": "veg",
@@ -1007,8 +952,7 @@
    "now": 5.95,
    "was": 8.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-01.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/100.webp"
   },
   {
    "cat": "veg",
@@ -1016,8 +960,7 @@
    "now": 5.95,
    "was": 7.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-02.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/101.webp"
   },
   {
    "cat": "veg",
@@ -1025,8 +968,7 @@
    "now": 7.95,
    "was": 12.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-03.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/102.webp"
   },
   {
    "cat": "veg",
@@ -1034,8 +976,7 @@
    "now": 5.95,
    "was": 7.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-04.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/103.webp"
   },
   {
    "cat": "veg",
@@ -1043,8 +984,7 @@
    "now": 7.95,
    "was": 11.5,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-05.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/104.webp"
   },
   {
    "cat": "veg",
@@ -1052,8 +992,7 @@
    "now": 8.95,
    "was": 12.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-06.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/105.webp"
   },
   {
    "cat": "veg",
@@ -1061,8 +1000,7 @@
    "now": 4.95,
    "was": 6.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-07.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/106.webp"
   },
   {
    "cat": "veg",
@@ -1070,8 +1008,7 @@
    "now": 11.95,
    "was": 17.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-08.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/107.webp"
   },
   {
    "cat": "veg",
@@ -1079,8 +1016,7 @@
    "now": 6.95,
    "was": 9.95,
    "kg": true,
-   "img": "/assets/img/offers/p/p07-09.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/108.webp"
   },
   {
    "cat": "snacks",
@@ -1089,7 +1025,7 @@
    "was": 6.5,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p08f-1.webp"
+   "img": "/assets/img/offers/p/109.webp"
   },
   {
    "cat": "snacks",
@@ -1098,7 +1034,7 @@
    "was": 8.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p08f-2.webp"
+   "img": "/assets/img/offers/p/110.webp"
   },
   {
    "cat": "snacks",
@@ -1107,7 +1043,7 @@
    "was": 7.5,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p08f-3.webp"
+   "img": "/assets/img/offers/p/111.webp"
   },
   {
    "cat": "snacks",
@@ -1116,8 +1052,7 @@
    "was": 18.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p08f-4.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/112.webp"
   },
   {
    "cat": "snacks",
@@ -1125,7 +1060,7 @@
    "now": 5.5,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-01.webp"
+   "img": "/assets/img/offers/p/113.webp"
   },
   {
    "cat": "snacks",
@@ -1133,7 +1068,7 @@
    "now": 5.5,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-02.webp"
+   "img": "/assets/img/offers/p/114.webp"
   },
   {
    "cat": "snacks",
@@ -1141,8 +1076,7 @@
    "now": 5.5,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-03.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/115.webp"
   },
   {
    "cat": "snacks",
@@ -1150,7 +1084,7 @@
    "now": 5.5,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-04.webp"
+   "img": "/assets/img/offers/p/116.webp"
   },
   {
    "cat": "snacks",
@@ -1158,7 +1092,7 @@
    "now": 5.5,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-05.webp"
+   "img": "/assets/img/offers/p/117.webp"
   },
   {
    "cat": "snacks",
@@ -1166,7 +1100,7 @@
    "now": 38.95,
    "was": 42.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-06.webp"
+   "img": "/assets/img/offers/p/118.webp"
   },
   {
    "cat": "snacks",
@@ -1174,7 +1108,7 @@
    "now": 46.95,
    "was": 49.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-07.webp"
+   "img": "/assets/img/offers/p/119.webp"
   },
   {
    "cat": "snacks",
@@ -1182,7 +1116,7 @@
    "now": 52.95,
    "was": 55.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-08.webp"
+   "img": "/assets/img/offers/p/120.webp"
   },
   {
    "cat": "snacks",
@@ -1190,7 +1124,7 @@
    "now": 28.75,
    "was": 30.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-09.webp"
+   "img": "/assets/img/offers/p/121.webp"
   },
   {
    "cat": "snacks",
@@ -1198,7 +1132,7 @@
    "now": 28.75,
    "was": 30.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-10.webp"
+   "img": "/assets/img/offers/p/122.webp"
   },
   {
    "cat": "snacks",
@@ -1206,7 +1140,7 @@
    "now": 28.75,
    "was": 30.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-11.webp"
+   "img": "/assets/img/offers/p/123.webp"
   },
   {
    "cat": "snacks",
@@ -1214,7 +1148,7 @@
    "now": 23.75,
    "was": 25.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-12.webp"
+   "img": "/assets/img/offers/p/124.webp"
   },
   {
    "cat": "snacks",
@@ -1222,7 +1156,7 @@
    "now": 28.75,
    "was": 30.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-13.webp"
+   "img": "/assets/img/offers/p/125.webp"
   },
   {
    "cat": "snacks",
@@ -1230,7 +1164,7 @@
    "now": 28.75,
    "was": 30.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-14.webp"
+   "img": "/assets/img/offers/p/126.webp"
   },
   {
    "cat": "snacks",
@@ -1238,8 +1172,7 @@
    "now": 8.95,
    "was": 12.5,
    "kg": false,
-   "img": "/assets/img/offers/p/p08-15.webp",
-   "cut": "l"
+   "img": "/assets/img/offers/p/127.webp"
   },
   {
    "cat": "biscuits",
@@ -1248,8 +1181,7 @@
    "was": 30.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p09f-1.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/128.webp"
   },
   {
    "cat": "biscuits",
@@ -1258,8 +1190,7 @@
    "was": 13.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p09f-2.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/129.webp"
   },
   {
    "cat": "biscuits",
@@ -1268,8 +1199,7 @@
    "was": 7.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p09f-3.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/130.webp"
   },
   {
    "cat": "biscuits",
@@ -1278,8 +1208,7 @@
    "was": 6.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p09f-4.webp",
-   "cut": "r"
+   "img": "/assets/img/offers/p/131.webp"
   },
   {
    "cat": "biscuits",
@@ -1287,7 +1216,7 @@
    "now": 14.95,
    "was": 18.95,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-01.webp"
+   "img": "/assets/img/offers/p/132.webp"
   },
   {
    "cat": "biscuits",
@@ -1295,7 +1224,7 @@
    "now": 9.95,
    "was": 13.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-02.webp"
+   "img": "/assets/img/offers/p/133.webp"
   },
   {
    "cat": "biscuits",
@@ -1303,7 +1232,7 @@
    "now": 7.5,
    "was": 9.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-03.webp"
+   "img": "/assets/img/offers/p/134.webp"
   },
   {
    "cat": "biscuits",
@@ -1311,7 +1240,7 @@
    "now": 14.5,
    "was": 16.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-04.webp"
+   "img": "/assets/img/offers/p/135.webp"
   },
   {
    "cat": "biscuits",
@@ -1319,7 +1248,7 @@
    "now": 14.5,
    "was": 16.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-05.webp"
+   "img": "/assets/img/offers/p/136.webp"
   },
   {
    "cat": "biscuits",
@@ -1327,7 +1256,7 @@
    "now": 11.75,
    "was": 13.25,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-06.webp"
+   "img": "/assets/img/offers/p/137.webp"
   },
   {
    "cat": "biscuits",
@@ -1335,7 +1264,7 @@
    "now": 15.95,
    "was": 18.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-07.webp"
+   "img": "/assets/img/offers/p/138.webp"
   },
   {
    "cat": "biscuits",
@@ -1343,7 +1272,7 @@
    "now": 4.25,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-08.webp"
+   "img": "/assets/img/offers/p/139.webp"
   },
   {
    "cat": "biscuits",
@@ -1351,7 +1280,7 @@
    "now": 7.5,
    "was": 10.5,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-09.webp"
+   "img": "/assets/img/offers/p/140.webp"
   },
   {
    "cat": "biscuits",
@@ -1359,7 +1288,7 @@
    "now": 7.5,
    "was": 10.5,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-10.webp"
+   "img": "/assets/img/offers/p/141.webp"
   },
   {
    "cat": "biscuits",
@@ -1367,7 +1296,7 @@
    "now": 7.5,
    "was": 10.5,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-11.webp"
+   "img": "/assets/img/offers/p/142.webp"
   },
   {
    "cat": "biscuits",
@@ -1375,7 +1304,7 @@
    "now": 16.95,
    "was": 19.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-12.webp"
+   "img": "/assets/img/offers/p/143.webp"
   },
   {
    "cat": "biscuits",
@@ -1383,7 +1312,7 @@
    "now": 5.0,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-13.webp"
+   "img": "/assets/img/offers/p/144.webp"
   },
   {
    "cat": "biscuits",
@@ -1391,7 +1320,7 @@
    "now": 5.25,
    "was": 5.75,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-14.webp"
+   "img": "/assets/img/offers/p/145.webp"
   },
   {
    "cat": "biscuits",
@@ -1399,7 +1328,7 @@
    "now": 1.75,
    "was": 2.25,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-15.webp"
+   "img": "/assets/img/offers/p/146.webp"
   },
   {
    "cat": "biscuits",
@@ -1407,7 +1336,7 @@
    "now": 16.95,
    "was": 19.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-16.webp"
+   "img": "/assets/img/offers/p/147.webp"
   },
   {
    "cat": "biscuits",
@@ -1415,7 +1344,7 @@
    "now": 16.95,
    "was": 19.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-17.webp"
+   "img": "/assets/img/offers/p/148.webp"
   },
   {
    "cat": "biscuits",
@@ -1423,7 +1352,7 @@
    "now": 16.95,
    "was": 19.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p09-18.webp"
+   "img": "/assets/img/offers/p/149.webp"
   },
   {
    "cat": "drinks",
@@ -1432,7 +1361,7 @@
    "was": 9.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p10f-1.webp"
+   "img": "/assets/img/offers/p/150.webp"
   },
   {
    "cat": "drinks",
@@ -1441,7 +1370,7 @@
    "was": 9.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p10f-2.webp"
+   "img": "/assets/img/offers/p/151.webp"
   },
   {
    "cat": "drinks",
@@ -1450,7 +1379,7 @@
    "was": 25.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p10f-3.webp"
+   "img": "/assets/img/offers/p/152.webp"
   },
   {
    "cat": "drinks",
@@ -1459,7 +1388,7 @@
    "was": 15.0,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p10f-4.webp"
+   "img": "/assets/img/offers/p/153.webp"
   },
   {
    "cat": "drinks",
@@ -1468,7 +1397,7 @@
    "was": 26.95,
    "kg": false,
    "featured": true,
-   "img": "/assets/img/offers/p/p10f-5.webp"
+   "img": "/assets/img/offers/p/154.webp"
   },
   {
    "cat": "drinks",
@@ -1476,7 +1405,7 @@
    "now": 7.5,
    "was": 9.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-01.webp"
+   "img": "/assets/img/offers/p/155.webp"
   },
   {
    "cat": "drinks",
@@ -1484,7 +1413,7 @@
    "now": 7.5,
    "was": 9.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-02.webp"
+   "img": "/assets/img/offers/p/156.webp"
   },
   {
    "cat": "drinks",
@@ -1492,7 +1421,7 @@
    "now": 4.25,
    "was": 5.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-03.webp"
+   "img": "/assets/img/offers/p/157.webp"
   },
   {
    "cat": "drinks",
@@ -1500,7 +1429,7 @@
    "now": 4.25,
    "was": 5.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-04.webp"
+   "img": "/assets/img/offers/p/158.webp"
   },
   {
    "cat": "drinks",
@@ -1508,7 +1437,7 @@
    "now": 4.25,
    "was": 5.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-05.webp"
+   "img": "/assets/img/offers/p/159.webp"
   },
   {
    "cat": "drinks",
@@ -1516,7 +1445,7 @@
    "now": 4.25,
    "was": 5.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-06.webp"
+   "img": "/assets/img/offers/p/160.webp"
   },
   {
    "cat": "drinks",
@@ -1524,7 +1453,7 @@
    "now": 4.25,
    "was": 5.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-07.webp"
+   "img": "/assets/img/offers/p/161.webp"
   },
   {
    "cat": "drinks",
@@ -1532,7 +1461,7 @@
    "now": 4.25,
    "was": 5.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-08.webp"
+   "img": "/assets/img/offers/p/162.webp"
   },
   {
    "cat": "drinks",
@@ -1540,7 +1469,7 @@
    "now": 4.25,
    "was": 5.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-09.webp"
+   "img": "/assets/img/offers/p/163.webp"
   },
   {
    "cat": "drinks",
@@ -1548,7 +1477,7 @@
    "now": 15.95,
    "was": 18.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-10.webp"
+   "img": "/assets/img/offers/p/164.webp"
   },
   {
    "cat": "drinks",
@@ -1556,7 +1485,7 @@
    "now": 15.95,
    "was": 18.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-11.webp"
+   "img": "/assets/img/offers/p/165.webp"
   },
   {
    "cat": "drinks",
@@ -1564,7 +1493,7 @@
    "now": 15.95,
    "was": 18.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-12.webp"
+   "img": "/assets/img/offers/p/166.webp"
   },
   {
    "cat": "drinks",
@@ -1572,7 +1501,7 @@
    "now": 15.95,
    "was": 18.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-13.webp"
+   "img": "/assets/img/offers/p/167.webp"
   },
   {
    "cat": "drinks",
@@ -1580,7 +1509,7 @@
    "now": 15.95,
    "was": 18.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-14.webp"
+   "img": "/assets/img/offers/p/168.webp"
   },
   {
    "cat": "drinks",
@@ -1588,7 +1517,7 @@
    "now": 25.0,
    "was": 30.0,
    "kg": false,
-   "img": "/assets/img/offers/p/p10-15.webp"
+   "img": "/assets/img/offers/p/169.webp"
   }
  ],
  "hero": {
