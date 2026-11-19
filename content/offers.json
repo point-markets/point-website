@@ -1,7 +1,7 @@
 {
  "branch": "الرفيعة",
  "city": "الرياض",
- "title": "عروض الجمعة البيضاء",
+ "title": "عروض ساعات السعادة",
  "hours": "يومياً من 6 صباحاً إلى 6 مساءً",
  "duration": "لمدة 7 أيام",
  "headline": "حتى 50%",
@@ -590,30 +590,6 @@
    "img": "/assets/img/offers/p/056.webp"
   },
   {
-   "cat": "meat",
-   "name": "جبنة جودة كمون",
-   "now": 65.95,
-   "was": 79.95,
-   "kg": true,
-   "img": "/assets/img/offers/p/057.webp"
-  },
-  {
-   "cat": "meat",
-   "name": "جبنة عكاوي استرا",
-   "now": 41.95,
-   "was": 49.95,
-   "kg": true,
-   "img": "/assets/img/offers/p/058.webp"
-  },
-  {
-   "cat": "meat",
-   "name": "جبنة شيدر أصفر",
-   "now": 45.95,
-   "was": 55.0,
-   "kg": true,
-   "img": "/assets/img/offers/p/059.webp"
-  },
-  {
    "cat": "cheese",
    "name": "شبيه جبنة دمياطي العلا",
    "now": 11.95,
@@ -768,6 +744,30 @@
    "was": 34.95,
    "kg": true,
    "img": "/assets/img/offers/p/078.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة جودة كمون",
+   "now": 65.95,
+   "was": 79.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/057.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة عكاوي استرا",
+   "now": 41.95,
+   "was": 49.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/058.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة شيدر أصفر",
+   "now": 45.95,
+   "was": 55.0,
+   "kg": true,
+   "img": "/assets/img/offers/p/059.webp"
   },
   {
    "cat": "pickles",

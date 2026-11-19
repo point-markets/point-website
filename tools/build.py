@@ -323,7 +323,7 @@ def offers_page():
 <p class="lead">{html.escape(data['hours'])} {html.escape(data['duration'])}. تصفّح الكتالوج الكامل بالأسفل، وانتظروا مفاجأة كل يوم جمعة.</p>
 <div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}<a href="tel:{data['phone']}" dir="ltr">{data['phone']}</a></div>
 <div class="oh-actions"><a class="button yellow" href="{html.escape(pages[0]['img'])}" data-n="0" id="open-catalog">تصفّح الكتالوج {icon('arrow', 17)}</a><a class="button ghost" href="{data['pdf']}" download>حمّل الكتالوج PDF</a></div></div>
-<div class="oh-art"><img class="oa-photo" src="{hero.get('cart', '')}" alt="عربة تسوق ممتلئة بمنتجات عروض الجمعة البيضاء من بوينت" fetchpriority="high"></div></div>
+<div class="oh-art"><img class="oa-photo" src="{hero.get('cart', '')}" alt="عربة تسوق ممتلئة بمنتجات عروض ساعات السعادة من بوينت" fetchpriority="high"></div></div>
 <div class="oh-banner"><img src="{hero.get('banner', '')}" alt="عروض يومية من 6 صباحاً إلى 6 مساء، وانتظروا مفاجأة كل يوم جمعة"></div>
 </div></section>
 <section class="jz-banner"><div class="container"><a class="jz-card" href="{branch['map'] if branch else '#'}" target="_blank" rel="noopener">
@@ -333,8 +333,7 @@ def offers_page():
 <section class="offers"><div class="container">
 <nav class="cat-chips" aria-label="الأقسام">{chips}</nav>
 {sections}
-<h2 class="cat-head">صفحات الكتالوج</h2>
-<div class="cat-grid">{cards}</div>
+
 <p class="offers-note">العروض والخصومات المعلنة سارية حسب مدتها المحددة وحتى نفاد الكمية، والسعر المعتمد هو السعر المعروض في الفرع وقت الشراء. اطّلع على <a href="/terms/">الشروط والأحكام</a>.</p>
 </div></section>
 <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="كتالوج العروض"><button class="lb-x" id="lb-x" aria-label="إغلاق">&times;</button><button class="lb-nav lb-prev" id="lb-prev" aria-label="السابق">&rsaquo;</button><div class="lb-stage"><img id="lb-img" alt=""><p id="lb-cap"></p></div><button class="lb-nav lb-next" id="lb-next" aria-label="التالي">&lsaquo;</button></div>
