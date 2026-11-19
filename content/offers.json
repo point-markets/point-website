@@ -1521,7 +1521,7 @@
   }
  ],
  "hero": {
-  "cart": "/assets/img/offers/cover-cart.webp",
+  "cart": "/assets/img/offers/hero-cart.webp",
   "banner": "/assets/img/offers/cover-banner.webp"
  }
 }
