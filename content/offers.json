@@ -78,5 +78,126 @@
       "img": "/assets/img/offers/rafeea-10.webp",
       "thumb": "/assets/img/offers/rafeea-10-t.webp"
     }
+  ],
+  "categories": [
+    {
+      "id": "rice",
+      "title": "الأرز والسكر والمعكرونة",
+      "page": 2
+    }
+  ],
+  "products": [
+    {
+      "cat": "rice",
+      "name": "أرز أبو كاس 10 كجم",
+      "now": 66.8,
+      "was": 80.95,
+      "img": "/assets/img/offers/p/r2-f1.webp",
+      "featured": true
+    },
+    {
+      "cat": "rice",
+      "name": "أرز بابل مزة باكستاني 10 كجم",
+      "now": 38.8,
+      "was": 58.0,
+      "img": "/assets/img/offers/p/r2-f2.webp",
+      "featured": true
+    },
+    {
+      "cat": "rice",
+      "name": "مكرونة بركة السنابل أنابيب 450 جم",
+      "now": 1.25,
+      "was": 3.5,
+      "img": "/assets/img/offers/p/r2-f3.webp",
+      "featured": true
+    },
+    {
+      "cat": "rice",
+      "name": "مكرونة بركة السنابل خواتم مخططة 450 جم",
+      "now": 1.25,
+      "was": 3.5,
+      "img": "/assets/img/offers/p/r2-f4.webp",
+      "featured": true
+    },
+    {
+      "cat": "rice",
+      "name": "شعيرية بركة السنابل مقطعة 450 جم",
+      "now": 1.25,
+      "was": 3.5,
+      "img": "/assets/img/offers/p/r2-f5.webp",
+      "featured": true
+    },
+    {
+      "cat": "rice",
+      "name": "أرز صن وايت 5 كجم",
+      "now": 34.8,
+      "was": 48.0
+    },
+    {
+      "cat": "rice",
+      "name": "أرز صن وايت كالروز 2 كجم",
+      "now": 17.95,
+      "was": 20.0
+    },
+    {
+      "cat": "rice",
+      "name": "أرز باب الهند 10 كجم",
+      "now": 128.0,
+      "was": 130.0
+    },
+    {
+      "cat": "rice",
+      "name": "أرز الوليمة 10 كجم",
+      "now": 64.95,
+      "was": 89.0
+    },
+    {
+      "cat": "rice",
+      "name": "أرز الوليمة 5 كجم",
+      "now": 34.8,
+      "was": 48.0
+    },
+    {
+      "cat": "rice",
+      "name": "أرز أبو كاس 5 كجم",
+      "now": 34.95,
+      "was": 46.95
+    },
+    {
+      "cat": "rice",
+      "name": "أرز البطي 10 كجم",
+      "now": 49.8,
+      "was": 55.0
+    },
+    {
+      "cat": "rice",
+      "name": "أرز الفخامة مزة 5 كجم",
+      "now": 28.8,
+      "was": 36.5
+    },
+    {
+      "cat": "rice",
+      "name": "أرز بهاي بهاي سيلا 5 كجم",
+      "now": 19.95,
+      "was": 22.0
+    },
+    {
+      "cat": "rice",
+      "name": "العزيمة سكر ناعم 5 كجم",
+      "now": 14.95,
+      "was": 18.0
+    },
+    {
+      "cat": "rice",
+      "name": "الأسرة سكر ناعم 5 كجم",
+      "now": 23.0,
+      "was": 25.0
+    },
+    {
+      "cat": "rice",
+      "name": "العزيمة سكر ناعم 10 كجم",
+      "now": 24.95,
+      "was": 29.95
+    }
   ]
 }

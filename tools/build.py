@@ -294,6 +294,22 @@ def offers_page():
         f'<span class="cat-media"><img src="{html.escape(p["thumb"])}" alt="{html.escape(p["title"] + ": " + p["summary"])}" loading="lazy"></span>'
         f'<span class="cat-info"><b>{html.escape(p["title"])}</b><small>{html.escape(p["summary"])}</small></span></a>'
         for i, p in enumerate(pages))
+    fmt = lambda v: f'{v:.2f}'
+    def pct(p):
+        return round((p['was'] - p['now']) / p['was'] * 100) if p.get('was') else 0
+    sections = ''
+    for c in data.get('categories', []):
+        items = [p for p in data.get('products', []) if p['cat'] == c['id']]
+        feat = ''.join(
+            f'<article class="offer-card"><div class="offer-media" style="--tint:#fff"><img class="pack" src="{html.escape(p["img"])}" alt="{html.escape(p["name"])}" loading="lazy"><span class="offer-badge">خصم <bdi dir="ltr">{pct(p)}%</bdi></span></div>'
+            f'<h3>{html.escape(p["name"])}</h3><div class="offer-price"><b>{fmt(p["now"])}</b><span>ر.س</span><s>{fmt(p["was"])}</s></div></article>'
+            for p in items if p.get('featured'))
+        rows = ''.join(
+            f'<li><span class="pl-name">{html.escape(p["name"])}</span><span class="pl-was"><s>{fmt(p["was"])}</s></span><span class="pl-now"><b>{fmt(p["now"])}</b> ر.س</span><span class="pl-pct">-<bdi dir="ltr">{pct(p)}%</bdi></span></li>'
+            for p in items if not p.get('featured'))
+        sections += (f'<section class="prod-sec" id="{c["id"]}"><div class="prod-head"><h2>{html.escape(c["title"])}</h2>'
+                     f'<a href="{html.escape(pages[c["page"] - 1]["img"])}" data-n="{c["page"] - 1}">صفحة الكتالوج</a></div>'
+                     f'<div class="offers-grid prod-feat">{feat}</div><ul class="plist">{rows}</ul></section>')
     where = (f'<a href="{branch["map"]}" target="_blank" rel="noopener">موقع الفرع على الخرائط {icon("pin", 17)}</a>' if branch else '')
     jmark = '<span class="jz-word">جاهز</span>'
     if os.path.exists(os.path.join(STATIC, 'assets', 'img', 'jahez-logo.png')):
@@ -308,13 +324,19 @@ def offers_page():
 <p class="lead">{html.escape(data['hours'])} {html.escape(data['duration'])}. تصفّح الكتالوج الكامل بالأسفل، وانتظروا مفاجأة كل يوم جمعة.</p>
 <div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}<a href="tel:{data['phone']}" dir="ltr">{data['phone']}</a></div>
 <div class="oh-actions"><a class="button yellow" href="{html.escape(pages[0]['img'])}" data-n="0" id="open-catalog">تصفّح الكتالوج {icon('arrow', 17)}</a><a class="button ghost" href="{data['pdf']}" download>حمّل الكتالوج PDF</a></div></div>
-<div class="oh-cover"><a href="{html.escape(pages[0]['img'])}" data-n="0"><img src="{html.escape(pages[0]['thumb'])}" alt="غلاف كتالوج عروض الجمعة البيضاء من بوينت" fetchpriority="high"></a></div></div>
+<div class="oh-art" aria-hidden="true">
+<div class="oa-swoosh"></div>
+<div class="oa-burst"><svg viewBox="0 0 300 300"><path d="M150 4l26 38 40-24 8 45 46 4-18 42 38 28-37 28 17 43-46 2-8 46-41-23-24 37-25-38-40 24-8-45-46-4 18-42-38-28 37-28-17-43 46-2 8-46 41 23z" fill="#00566c"/><text x="150" y="108" text-anchor="middle" font-size="40" fill="#fff" font-weight="800">وفّر حتى</text><text x="150" y="190" text-anchor="middle" font-size="86" fill="#f5c400" font-weight="900" direction="ltr">50%</text><text x="150" y="238" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">على أقوى العروض</text></svg></div>
+<div class="oa-items"><img class="oi i1" src="/assets/img/offers/p/r2-f1-cut.webp" alt=""><img class="oi i2" src="/assets/img/offers/p/r2-f2-cut.webp" alt=""><img class="oi i3" src="/assets/img/offers/p/r2-f3-cut.webp" alt=""><img class="oi i4" src="/assets/img/offers/p/r2-f4-cut.webp" alt=""><img class="oi i5" src="/assets/img/offers/p/r2-f5-cut.webp" alt=""></div>
+<svg class="oa-cart" viewBox="0 0 440 300"><path d="M8 34h58l22 24" fill="none" stroke="#f5c400" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path d="M72 40L112 206" stroke="#e8e8e8" stroke-width="9" stroke-linecap="round"/><path d="M84 74H414L374 206H112Z" fill="rgba(255,255,255,.08)" stroke="#f5c400" stroke-width="11" stroke-linejoin="round"/><path d="M150 82L136 200M220 82L212 200M290 82L288 200M360 82L364 200" stroke="rgba(255,255,255,.35)" stroke-width="4"/><path d="M96 130H402M104 168H390" stroke="rgba(255,255,255,.3)" stroke-width="4"/><path d="M132 140H356V192H132Z" fill="#f5c400" stroke="#d8a800" stroke-width="3" rx="8"/><path d="M118 210L146 258M368 210L342 258" stroke="#e8e8e8" stroke-width="8" stroke-linecap="round"/><circle cx="150" cy="268" r="22" fill="#2b3a42"/><circle cx="150" cy="268" r="9" fill="#9fb0b8"/><circle cx="338" cy="268" r="22" fill="#2b3a42"/><circle cx="338" cy="268" r="9" fill="#9fb0b8"/></svg>
+</div></div>
 </div></section>
 <section class="jz-banner"><div class="container"><a class="jz-card" href="{JAHEZ}" target="_blank" rel="noopener">
 <div class="jz-logo">{jmark}</div>
 <div class="jz-text"><b>نفس العروض تصلك لين باب البيت</b><p>اطلب من بوينت عبر تطبيق جاهز.</p></div>
 <span class="jz-cta">اطلب الآن {icon('arrow', 17)}</span></a></div></section>
 <section class="offers"><div class="container">
+{sections}
 <h2 class="cat-head">صفحات الكتالوج</h2>
 <div class="cat-grid">{cards}</div>
 <p class="offers-note">العروض والخصومات المعلنة سارية حسب مدتها المحددة وحتى نفاد الكمية، والسعر المعتمد هو السعر المعروض في الفرع وقت الشراء. اطّلع على <a href="/terms/">الشروط والأحكام</a>.</p>
