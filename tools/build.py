@@ -301,7 +301,7 @@ def offers_page():
         old = f'<s>{fmt(p["was"])}</s>' if p.get('was') else ''
         badge = f'<span class="pc-badge">-<bdi dir="ltr">{pct(p)}%</bdi></span>' if p.get('was') else ''
         kg = '<span class="pc-kg">للكيلو</span>' if p.get('kg') else ''
-        return (f'<article class="pc{" pc-feat" if p.get("featured") else ""}"><div class="pc-img">{badge}<img src="{html.escape(p["img"])}" alt="{html.escape(p["name"])}" loading="lazy"></div>'
+        return (f'<article class="pc{" pc-feat" if p.get("featured") else ""}"><div class="pc-img{" cut-" + p["cut"] if p.get("cut") else ""}">{badge}<img src="{html.escape(p["img"])}" alt="{html.escape(p["name"])}" loading="lazy"></div>'
                 f'<h3>{html.escape(p["name"])}</h3><div class="pc-price"><b>{fmt(p["now"])}</b><span>ر.س</span>{old}</div>{kg}</article>')
     sections = ''
     for c in data.get('categories', []):

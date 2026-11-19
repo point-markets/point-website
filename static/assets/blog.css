@@ -497,3 +497,8 @@ body.blog{background:#fff}
 @media(max-width:720px){.oh-art{width:100%;margin:14px auto 0}.oh-banner{margin-top:16px}.pc-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.prod-head h2{font-size:21px}.pc h3{font-size:13px}}
 
 .jz-logo{background:var(--blue)!important}.jz-logo svg{color:#fff;stroke:#fff}
+
+/* products partly hidden behind the catalog price circle: keep the cut edge flush with the card edge */
+.pc-img.cut-l img{margin-left:-10px;width:calc(100% + 10px);object-position:left center}
+.pc-img.cut-r img{margin-right:-10px;width:calc(100% + 10px);object-position:right center}
+.pc{overflow:hidden}
