@@ -1,115 +1,82 @@
 {
-  "demo": true,
   "branch": "الرفيعة",
   "city": "الرياض",
-  "valid_from": "2026-10-20",
-  "valid_to": "2026-10-31",
-  "items": [
+  "title": "عروض الجمعة البيضاء",
+  "hours": "يومياً من 6 صباحاً إلى 6 مساءً",
+  "duration": "لمدة 7 أيام",
+  "headline": "حتى 50%",
+  "phone": "+966599232857",
+  "pdf": "/assets/files/point-rafeea-white-friday-offers.pdf",
+  "pages": [
     {
-      "name": "خيار بلدي",
-      "unit": "عبوة 1 كجم",
-      "category": "خضار وفواكه",
-      "was": 3.95,
-      "now": 2.95,
-      "image": "/assets/img/offers/cucumber.webp",
-      "featured": true
+      "n": 1,
+      "title": "غلاف العروض",
+      "summary": "وفّر حتى 50% على أقوى العروض",
+      "img": "/assets/img/offers/rafeea-01.webp",
+      "thumb": "/assets/img/offers/rafeea-01-t.webp"
     },
     {
-      "name": "برتقال",
-      "unit": "2 كجم",
-      "category": "خضار وفواكه",
-      "was": 12.95,
-      "now": 8.95,
-      "image": "/assets/img/offers/orange.webp",
-      "featured": true
+      "n": 2,
+      "title": "الأرز والسكر والمعكرونة",
+      "summary": "أرز بأنواعه وأحجامه، سكر، مكرونة وشعيرية",
+      "img": "/assets/img/offers/rafeea-02.webp",
+      "thumb": "/assets/img/offers/rafeea-02-t.webp"
     },
     {
-      "name": "لبنة فاخرة كاملة الدسم",
-      "unit": "عبوة عائلية",
-      "category": "ألبان وبيض",
-      "was": 9.95,
-      "now": 7.5,
-      "image": "/assets/img/offers/labneh.webp",
-      "fit": "contain"
+      "n": 3,
+      "title": "الزيوت والشاي والقهوة",
+      "summary": "زيوت طبخ، شاي، قهوة، كوفي ميت، إندومي وحليب",
+      "img": "/assets/img/offers/rafeea-03.webp",
+      "thumb": "/assets/img/offers/rafeea-03-t.webp"
     },
     {
-      "name": "جزر طازج",
-      "unit": "عبوة 1 كجم",
-      "category": "خضار وفواكه",
-      "was": 5.95,
-      "now": 4.25,
-      "image": "/assets/img/offers/carrots.webp",
-      "featured": true
+      "n": 4,
+      "title": "الدواجن واللحوم والأجبان",
+      "summary": "دجاج مجمد ومبرد، لحوم طازجة، أجبان وشبيه جبنة ولبنة",
+      "img": "/assets/img/offers/rafeea-04.webp",
+      "thumb": "/assets/img/offers/rafeea-04-t.webp"
     },
     {
-      "name": "خبز توست أسمر",
-      "unit": "شرائح",
-      "category": "مخبوزات",
-      "was": 6.5,
-      "now": 4.95,
-      "image": "/assets/img/offers/bread.webp",
-      "fit": "contain"
+      "n": 5,
+      "title": "الأجبان واللحوم الباردة",
+      "summary": "أجبان بأنواعها، مرتديلا، بسطرمة ومقبلات",
+      "img": "/assets/img/offers/rafeea-05.webp",
+      "thumb": "/assets/img/offers/rafeea-05-t.webp"
     },
     {
-      "name": "زيت زيتون بكر ممتاز",
-      "unit": "1 لتر",
-      "category": "مواد غذائية",
-      "was": 29.95,
-      "now": 22.95,
-      "image": "/assets/img/offers/oil.webp",
-      "fit": "contain"
+      "n": 6,
+      "title": "المخللات والمربى والمعجنات",
+      "summary": "مخللات، مربى، زيتون، بيتزا ومناقيش",
+      "img": "/assets/img/offers/rafeea-06.webp",
+      "thumb": "/assets/img/offers/rafeea-06-t.webp"
     },
     {
-      "name": "عصير برتقال 100%",
-      "unit": "1.5 لتر",
-      "category": "مشروبات",
-      "was": 9.95,
-      "now": 6.95,
-      "image": "/assets/img/offers/juice.webp",
-      "fit": "contain"
+      "n": 7,
+      "title": "الخضار والفواكه",
+      "summary": "خضار وفواكه طازجة بأسعار الكيلو",
+      "img": "/assets/img/offers/rafeea-07.webp",
+      "thumb": "/assets/img/offers/rafeea-07-t.webp"
     },
     {
-      "name": "قهوة عربية",
-      "unit": "250 جم",
-      "category": "مشروبات",
-      "was": 21.95,
-      "now": 16.95,
-      "image": "/assets/img/offers/coffee.webp",
-      "fit": "contain"
+      "n": 8,
+      "title": "المكسرات والشيبس",
+      "summary": "مكسرات باجة، شيبس وسناكس",
+      "img": "/assets/img/offers/rafeea-08.webp",
+      "thumb": "/assets/img/offers/rafeea-08-t.webp"
     },
     {
-      "name": "طماطم طازجة",
-      "unit": "1 كجم",
-      "category": "خضار وفواكه",
-      "was": 6.95,
-      "now": 4.95,
-      "icon": "tomato",
-      "image": "/assets/img/offers/tomato.webp",
-      "fit": "contain"
+      "n": 9,
+      "title": "البسكويت والشوكولاتة",
+      "summary": "بسكويت، ويفر وشوكولاتة بأنواعها",
+      "img": "/assets/img/offers/rafeea-09.webp",
+      "thumb": "/assets/img/offers/rafeea-09-t.webp"
     },
     {
-      "name": "حليب المراعي كامل الدسم",
-      "unit": "2.85 لتر",
-      "category": "ألبان وبيض",
-      "was": 14.5,
-      "now": 11.95,
-      "icon": "milk",
-      "image": "/assets/img/offers/milk.webp",
-      "fit": "contain"
-    },
-    {
-      "name": "أرز بسمتي شازية",
-      "unit": "5 كجم",
-      "category": "مواد غذائية",
-      "was": 34.95,
-      "now": 27.95,
-      "icon": "rice",
-      "image": "/assets/img/offers/rice.webp",
-      "fit": "contain"
+      "n": 10,
+      "title": "المشروبات والمناديل والعناية",
+      "summary": "مشروبات غازية، مناديل وشامبو",
+      "img": "/assets/img/offers/rafeea-10.webp",
+      "thumb": "/assets/img/offers/rafeea-10-t.webp"
     }
-  ],
-  "banner": {
-    "title": "عروض مميزة هذا الأسبوع",
-    "sub": "أفضل خصومات فرع الرفيعة، لفترة محدودة"
-  }
+  ]
 }
