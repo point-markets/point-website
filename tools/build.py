@@ -313,9 +313,6 @@ def offers_page():
     chips = ''.join(f'<a href="#{c["id"]}">{html.escape(c["title"])}</a>' for c in data.get('categories', []))
     hero = data.get('hero', {})
     where = (f'<a href="{branch["map"]}" target="_blank" rel="noopener">موقع الفرع على الخرائط {icon("pin", 17)}</a>' if branch else '')
-    jmark = '<span class="jz-word">جاهز</span>'
-    if os.path.exists(os.path.join(STATIC, 'assets', 'img', 'jahez-logo.png')):
-        jmark = '<img src="/assets/img/jahez-logo.png" alt="جاهز">'
     url = SITE + '/offers/'
     srcs = json.dumps([{'src': p['img'], 'title': p['title']} for p in pages], ensure_ascii=False)
     body = f'''<section class="offers-hero"><div class="container">
@@ -329,10 +326,10 @@ def offers_page():
 <div class="oh-art"><img class="oa-photo" src="{hero.get('cart', '')}" alt="عربة تسوق ممتلئة بمنتجات عروض الجمعة البيضاء من بوينت" fetchpriority="high"></div></div>
 <div class="oh-banner"><img src="{hero.get('banner', '')}" alt="عروض يومية من 6 صباحاً إلى 6 مساء، وانتظروا مفاجأة كل يوم جمعة"></div>
 </div></section>
-<section class="jz-banner"><div class="container"><a class="jz-card" href="{JAHEZ}" target="_blank" rel="noopener">
-<div class="jz-logo">{jmark}</div>
-<div class="jz-text"><b>نفس العروض تصلك لين باب البيت</b><p>اطلب من بوينت عبر تطبيق جاهز.</p></div>
-<span class="jz-cta">اطلب الآن {icon('arrow', 17)}</span></a></div></section>
+<section class="jz-banner"><div class="container"><a class="jz-card" href="{branch['map'] if branch else '#'}" target="_blank" rel="noopener">
+<div class="jz-logo">{icon('pin', 30)}</div>
+<div class="jz-text"><b>زورونا في فرع {html.escape(data['branch'])}</b><p>العروض متوفرة في الفرع، {html.escape(data['city'])}، وحتى نفاد الكمية.</p></div>
+<span class="jz-cta">موقع الفرع على الخرائط {icon('arrow', 17)}</span></a></div></section>
 <section class="offers"><div class="container">
 <nav class="cat-chips" aria-label="الأقسام">{chips}</nav>
 {sections}
