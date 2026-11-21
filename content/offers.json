@@ -138,15 +138,6 @@
   },
   {
    "cat": "rice",
-   "name": "أرز بابل مزة باكستاني 10 كجم",
-   "now": 38.8,
-   "was": 58.0,
-   "kg": false,
-   "featured": true,
-   "img": "/assets/img/offers/p/002.webp"
-  },
-  {
-   "cat": "rice",
    "name": "مكرونة بركة السنابل أنابيب 450 جم",
    "now": 1.25,
    "was": 3.5,
@@ -171,6 +162,15 @@
    "kg": false,
    "featured": true,
    "img": "/assets/img/offers/p/005.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز الوليمة 5 كجم",
+   "now": 34.8,
+   "was": 48.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/010.webp",
+   "featured": true
   },
   {
    "cat": "rice",
@@ -203,14 +203,6 @@
    "was": 89.0,
    "kg": false,
    "img": "/assets/img/offers/p/009.webp"
-  },
-  {
-   "cat": "rice",
-   "name": "أرز الوليمة 5 كجم",
-   "now": 34.8,
-   "was": 48.0,
-   "kg": false,
-   "img": "/assets/img/offers/p/010.webp"
   },
   {
    "cat": "rice",
@@ -269,13 +261,12 @@
    "img": "/assets/img/offers/p/017.webp"
   },
   {
-   "cat": "oils",
-   "name": "زيت صني دوار الشمس 1.5 لتر",
-   "now": 11.5,
-   "was": 14.75,
+   "cat": "rice",
+   "name": "أرز باكستاني سيلا بهاي بهاي 10 كجم",
+   "now": 38.8,
+   "was": 49.0,
    "kg": false,
-   "featured": true,
-   "img": "/assets/img/offers/p/018.webp"
+   "img": "/assets/img/offers/p/n-bhai10.webp"
   },
   {
    "cat": "oils",
@@ -315,19 +306,20 @@
   },
   {
    "cat": "oils",
+   "name": "الرائد زيت أولين النخيل النقي 1.5 لتر",
+   "now": 11.5,
+   "was": 14.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-alrayed.webp"
+  },
+  {
+   "cat": "oils",
    "name": "عافية زيت دوار الشمس 1.5 لتر",
    "now": 19.95,
    "was": 21.0,
    "kg": false,
    "img": "/assets/img/offers/p/023.webp"
-  },
-  {
-   "cat": "oils",
-   "name": "الرائد زيت النخيل شفاف 1.5 لتر",
-   "now": 11.5,
-   "was": 14.0,
-   "kg": false,
-   "img": "/assets/img/offers/p/024.webp"
   },
   {
    "cat": "oils",
@@ -456,6 +448,14 @@
    "was": 17.95,
    "kg": false,
    "img": "/assets/img/offers/p/040.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "زيت صني دوار الشمس 1.5 لتر",
+   "now": 11.5,
+   "was": 14.75,
+   "kg": false,
+   "img": "/assets/img/offers/p/018.webp"
   },
   {
    "cat": "meat",
@@ -807,7 +807,7 @@
   },
   {
    "cat": "pickles",
-   "name": "مناقيش جبنة زعتر",
+   "name": "مناقيش لبنة زعتر",
    "now": 3.95,
    "was": 5.95,
    "kg": false,
@@ -1047,20 +1047,12 @@
   },
   {
    "cat": "snacks",
-   "name": "ميموريز بسكويت الشاي الفاخر 80 جم × 12",
-   "now": 8.95,
-   "was": 18.95,
-   "kg": false,
-   "featured": true,
-   "img": "/assets/img/offers/p/112.webp"
-  },
-  {
-   "cat": "snacks",
    "name": "مرامي شيبس حار 100 جم",
    "now": 5.5,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/113.webp"
+   "img": "/assets/img/offers/p/113.webp",
+   "featured": true
   },
   {
    "cat": "snacks",
@@ -1068,7 +1060,8 @@
    "now": 5.5,
    "was": 6.0,
    "kg": false,
-   "img": "/assets/img/offers/p/114.webp"
+   "img": "/assets/img/offers/p/114.webp",
+   "featured": true
   },
   {
    "cat": "snacks",
@@ -1167,23 +1160,6 @@
    "img": "/assets/img/offers/p/126.webp"
   },
   {
-   "cat": "snacks",
-   "name": "تيشوب بسكويت الشاي 750 جم",
-   "now": 8.95,
-   "was": 12.5,
-   "kg": false,
-   "img": "/assets/img/offers/p/127.webp"
-  },
-  {
-   "cat": "biscuits",
-   "name": "ميموريز بسكويت شاي",
-   "now": 13.8,
-   "was": 30.0,
-   "kg": false,
-   "featured": true,
-   "img": "/assets/img/offers/p/128.webp"
-  },
-  {
    "cat": "biscuits",
    "name": "ماكفيتيز دايجستيف داكنة 200 جم",
    "now": 11.5,
@@ -1209,6 +1185,24 @@
    "kg": false,
    "featured": true,
    "img": "/assets/img/offers/p/131.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "تيشوب بسكويت مملح 75 جم 10+2",
+   "now": 9.95,
+   "was": 15.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-tishop.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ميموريز بسكويت شاي 150 جم × 12",
+   "now": 16.8,
+   "was": 24.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-memories150.webp"
   },
   {
    "cat": "biscuits",
@@ -1383,21 +1377,21 @@
   },
   {
    "cat": "drinks",
-   "name": "مشوار رول مناديل 1500",
-   "now": 10.95,
-   "was": 15.0,
-   "kg": false,
-   "featured": true,
-   "img": "/assets/img/offers/p/153.webp"
-  },
-  {
-   "cat": "drinks",
    "name": "مناديل فاين فلافي 150 منديل × 10",
    "now": 19.95,
    "was": 26.95,
    "kg": false,
    "featured": true,
    "img": "/assets/img/offers/p/154.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "فاين ميجا رول 300",
+   "now": 10.95,
+   "was": 15.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-finemega.webp"
   },
   {
    "cat": "drinks",

@@ -502,3 +502,8 @@ body.blog{background:#fff}
 .pc-img.cut-l img{margin-left:-10px;width:calc(100% + 10px);object-position:left center}
 .pc-img.cut-r img{margin-right:-10px;width:calc(100% + 10px);object-position:right center}
 .pc{overflow:hidden}
+
+.oh-banner{background:#e8493a;border:4px solid #fff;border-radius:22px;padding:18px 24px;text-align:center;box-shadow:0 14px 30px rgba(0,0,0,.25);max-width:640px}
+.oh-banner p{margin:0}
+.ob-l1{color:#fff;font-weight:900;font-size:clamp(20px,3vw,32px);display:flex;align-items:center;justify-content:center;gap:10px}
+.ob-l2{display:inline-block;margin-top:10px!important;background:#f5c400;color:#1d2b33;font-weight:900;font-size:clamp(16px,2.3vw,25px);border-radius:12px;padding:4px 18px}
