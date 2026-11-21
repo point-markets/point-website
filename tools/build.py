@@ -297,23 +297,22 @@ def offers_page():
     fmt = lambda v: f'{v:.2f}'
     def pct(p):
         return round((p['was'] - p['now']) / p['was'] * 100) if p.get('was') else 0
+    def card(p):
+        old = f'<s>{fmt(p["was"])}</s>' if p.get('was') else ''
+        badge = f'<span class="pc-badge">-<bdi dir="ltr">{pct(p)}%</bdi></span>' if p.get('was') else ''
+        kg = '<span class="pc-kg">للكيلو</span>' if p.get('kg') else ''
+        return (f'<article class="pc{" pc-feat" if p.get("featured") else ""}"><div class="pc-img">{badge}<img src="{html.escape(p["img"])}" alt="{html.escape(p["name"])}" loading="lazy"></div>'
+                f'<h3>{html.escape(p["name"])}</h3><div class="pc-price"><b>{fmt(p["now"])}</b><span>ر.س</span>{old}</div>{kg}</article>')
     sections = ''
     for c in data.get('categories', []):
         items = [p for p in data.get('products', []) if p['cat'] == c['id']]
-        feat = ''.join(
-            f'<article class="offer-card"><div class="offer-media" style="--tint:#fff"><img class="pack" src="{html.escape(p["img"])}" alt="{html.escape(p["name"])}" loading="lazy"><span class="offer-badge">خصم <bdi dir="ltr">{pct(p)}%</bdi></span></div>'
-            f'<h3>{html.escape(p["name"])}</h3><div class="offer-price"><b>{fmt(p["now"])}</b><span>ر.س</span><s>{fmt(p["was"])}</s></div></article>'
-            for p in items if p.get('featured'))
-        rows = ''.join(
-            f'<li><span class="pl-name">{html.escape(p["name"])}</span><span class="pl-was"><s>{fmt(p["was"])}</s></span><span class="pl-now"><b>{fmt(p["now"])}</b> ر.س</span><span class="pl-pct">-<bdi dir="ltr">{pct(p)}%</bdi></span></li>'
-            for p in items if not p.get('featured'))
+        items.sort(key=lambda p: not p.get('featured'))
         sections += (f'<section class="prod-sec" id="{c["id"]}"><div class="prod-head"><h2>{html.escape(c["title"])}</h2>'
                      f'<a href="{html.escape(pages[c["page"] - 1]["img"])}" data-n="{c["page"] - 1}">صفحة الكتالوج</a></div>'
-                     f'<div class="offers-grid prod-feat">{feat}</div><ul class="plist">{rows}</ul></section>')
+                     f'<div class="pc-grid">{"".join(card(p) for p in items)}</div></section>')
+    chips = ''.join(f'<a href="#{c["id"]}">{html.escape(c["title"])}</a>' for c in data.get('categories', []))
+    hero = data.get('hero', {})
     where = (f'<a href="{branch["map"]}" target="_blank" rel="noopener">موقع الفرع على الخرائط {icon("pin", 17)}</a>' if branch else '')
-    jmark = '<span class="jz-word">جاهز</span>'
-    if os.path.exists(os.path.join(STATIC, 'assets', 'img', 'jahez-logo.png')):
-        jmark = '<img src="/assets/img/jahez-logo.png" alt="جاهز">'
     url = SITE + '/offers/'
     srcs = json.dumps([{'src': p['img'], 'title': p['title']} for p in pages], ensure_ascii=False)
     body = f'''<section class="offers-hero"><div class="container">
@@ -324,21 +323,17 @@ def offers_page():
 <p class="lead">{html.escape(data['hours'])} {html.escape(data['duration'])}. تصفّح الكتالوج الكامل بالأسفل، وانتظروا مفاجأة كل يوم جمعة.</p>
 <div class="offers-meta"><span>{icon('pin', 17)}فرع {html.escape(data['branch'])}، {html.escape(data['city'])}</span>{where}<a href="tel:{data['phone']}" dir="ltr">{data['phone']}</a></div>
 <div class="oh-actions"><a class="button yellow" href="{html.escape(pages[0]['img'])}" data-n="0" id="open-catalog">تصفّح الكتالوج {icon('arrow', 17)}</a><a class="button ghost" href="{data['pdf']}" download>حمّل الكتالوج PDF</a></div></div>
-<div class="oh-art" aria-hidden="true">
-<div class="oa-swoosh"></div>
-<div class="oa-burst"><svg viewBox="0 0 300 300"><path d="M150 4l26 38 40-24 8 45 46 4-18 42 38 28-37 28 17 43-46 2-8 46-41-23-24 37-25-38-40 24-8-45-46-4 18-42-38-28 37-28-17-43 46-2 8-46 41 23z" fill="#00566c"/><text x="150" y="108" text-anchor="middle" font-size="40" fill="#fff" font-weight="800">وفّر حتى</text><text x="150" y="190" text-anchor="middle" font-size="86" fill="#f5c400" font-weight="900" direction="ltr">50%</text><text x="150" y="238" text-anchor="middle" font-size="28" fill="#fff" font-weight="700">على أقوى العروض</text></svg></div>
-<div class="oa-items"><img class="oi i1" src="/assets/img/offers/p/r2-f1-cut.webp" alt=""><img class="oi i2" src="/assets/img/offers/p/r2-f2-cut.webp" alt=""><img class="oi i3" src="/assets/img/offers/p/r2-f3-cut.webp" alt=""><img class="oi i4" src="/assets/img/offers/p/r2-f4-cut.webp" alt=""><img class="oi i5" src="/assets/img/offers/p/r2-f5-cut.webp" alt=""></div>
-<svg class="oa-cart" viewBox="0 0 440 300"><path d="M8 34h58l22 24" fill="none" stroke="#f5c400" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path d="M72 40L112 206" stroke="#e8e8e8" stroke-width="9" stroke-linecap="round"/><path d="M84 74H414L374 206H112Z" fill="rgba(255,255,255,.08)" stroke="#f5c400" stroke-width="11" stroke-linejoin="round"/><path d="M150 82L136 200M220 82L212 200M290 82L288 200M360 82L364 200" stroke="rgba(255,255,255,.35)" stroke-width="4"/><path d="M96 130H402M104 168H390" stroke="rgba(255,255,255,.3)" stroke-width="4"/><path d="M132 140H356V192H132Z" fill="#f5c400" stroke="#d8a800" stroke-width="3" rx="8"/><path d="M118 210L146 258M368 210L342 258" stroke="#e8e8e8" stroke-width="8" stroke-linecap="round"/><circle cx="150" cy="268" r="22" fill="#2b3a42"/><circle cx="150" cy="268" r="9" fill="#9fb0b8"/><circle cx="338" cy="268" r="22" fill="#2b3a42"/><circle cx="338" cy="268" r="9" fill="#9fb0b8"/></svg>
-</div></div>
+<div class="oh-art"><img class="oa-photo" src="{hero.get('cart', '')}" alt="عربة تسوق ممتلئة بمنتجات عروض ساعات السعادة من بوينت" fetchpriority="high"></div></div>
+<div class="oh-banner"><p class="ob-l1"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#f5c400" stroke-width="2.6" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 7v5l3 2"/></svg>عروض يومية من 6 صباحًا إلى 6 مساءً</p><p class="ob-l2">وانتظروا مفاجأة كل يوم جمعة <span aria-hidden="true">&#127873;</span></p></div>
 </div></section>
-<section class="jz-banner"><div class="container"><a class="jz-card" href="{JAHEZ}" target="_blank" rel="noopener">
-<div class="jz-logo">{jmark}</div>
-<div class="jz-text"><b>نفس العروض تصلك لين باب البيت</b><p>اطلب من بوينت عبر تطبيق جاهز.</p></div>
-<span class="jz-cta">اطلب الآن {icon('arrow', 17)}</span></a></div></section>
+<section class="jz-banner"><div class="container"><a class="jz-card" href="{branch['map'] if branch else '#'}" target="_blank" rel="noopener">
+<div class="jz-logo">{icon('pin', 30)}</div>
+<div class="jz-text"><b>زورونا في فرع {html.escape(data['branch'])}</b><p>العروض متوفرة في الفرع، {html.escape(data['city'])}، وحتى نفاد الكمية.</p></div>
+<span class="jz-cta">موقع الفرع على جوجل ماب {icon('arrow', 17)}</span></a></div></section>
 <section class="offers"><div class="container">
+<nav class="cat-chips" aria-label="الأقسام">{chips}</nav>
 {sections}
-<h2 class="cat-head">صفحات الكتالوج</h2>
-<div class="cat-grid">{cards}</div>
+
 <p class="offers-note">العروض والخصومات المعلنة سارية حسب مدتها المحددة وحتى نفاد الكمية، والسعر المعتمد هو السعر المعروض في الفرع وقت الشراء. اطّلع على <a href="/terms/">الشروط والأحكام</a>.</p>
 </div></section>
 <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="كتالوج العروض"><button class="lb-x" id="lb-x" aria-label="إغلاق">&times;</button><button class="lb-nav lb-prev" id="lb-prev" aria-label="السابق">&rsaquo;</button><div class="lb-stage"><img id="lb-img" alt=""><p id="lb-cap"></p></div><button class="lb-nav lb-next" id="lb-next" aria-label="التالي">&lsaquo;</button></div>
@@ -352,8 +347,7 @@ lb.addEventListener('click',function(e){{if(e.target===lb)close()}});
 document.addEventListener('keydown',function(e){{if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(i+1);if(e.key==='ArrowRight')show(i-1)}});}})();</script>'''
     return page(f"{data['title']} - فرع {data['branch']} | بوينت ماركت", f"كتالوج {data['title']} من بوينت ماركت فرع {data['branch']} في {data['city']}", url, body,
                 {'@context': 'https://schema.org', '@type': 'WebPage', 'name': 'العروض', 'url': url}, SITE + '/assets/img/hero.jpg') \
-        .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">') \
-        .replace('index, follow, max-image-preview:large', 'noindex, nofollow')
+        .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">')
 
 
 def load_branches():
@@ -633,8 +627,8 @@ def _build(out, posts, preview):
     for d in legal.PAGES:
         write(f'{out}/{d["slug"]}/index.html', legal_page(d))
     write(f'{out}/branches/index.html', branches_page())
+    write(f'{out}/offers/index.html', offers_page())
     if preview:
-        write(f'{out}/offers/index.html', offers_page())  # test build only until offers go live
         idx = open(f'{out}/index.html', encoding='utf-8').read()
         write(f'{out}/index.html', idx.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"'))
         # noindex is enforced by meta tag + X-Robots-Tag header (crawlers must be allowed to see it)
@@ -646,7 +640,7 @@ def _build(out, posts, preview):
     today = datetime.date.today().isoformat()
     urls = [(SITE + '/', today), (SITE + '/blog/', max([p['modified'][:10] for p in pub] or [today]))] + \
            [(f"{SITE}/blog/category/{c[0]}/", today) for c in CATS] + \
-           [(f"{SITE}/{d['slug']}/", legal.UPDATED) for d in legal.PAGES] + [(SITE + '/branches/', today)] + \
+           [(f"{SITE}/{d['slug']}/", legal.UPDATED) for d in legal.PAGES] + [(SITE + '/branches/', today), (SITE + '/offers/', today)] + \
            [(f"{SITE}/blog/{p['slug']}/", p['modified'][:10]) for p in pub]
     write(f'{out}/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
           + ''.join(f'  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n' for u, d in urls) + '</urlset>\n')

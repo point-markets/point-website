@@ -1,203 +1,1521 @@
 {
-  "branch": "الرفيعة",
-  "city": "الرياض",
-  "title": "عروض الجمعة البيضاء",
-  "hours": "يومياً من 6 صباحاً إلى 6 مساءً",
-  "duration": "لمدة 7 أيام",
-  "headline": "حتى 50%",
-  "phone": "+966599232857",
-  "pdf": "/assets/files/point-rafeea-white-friday-offers.pdf",
-  "pages": [
-    {
-      "n": 1,
-      "title": "غلاف العروض",
-      "summary": "وفّر حتى 50% على أقوى العروض",
-      "img": "/assets/img/offers/rafeea-01.webp",
-      "thumb": "/assets/img/offers/rafeea-01-t.webp"
-    },
-    {
-      "n": 2,
-      "title": "الأرز والسكر والمعكرونة",
-      "summary": "أرز بأنواعه وأحجامه، سكر، مكرونة وشعيرية",
-      "img": "/assets/img/offers/rafeea-02.webp",
-      "thumb": "/assets/img/offers/rafeea-02-t.webp"
-    },
-    {
-      "n": 3,
-      "title": "الزيوت والشاي والقهوة",
-      "summary": "زيوت طبخ، شاي، قهوة، كوفي ميت، إندومي وحليب",
-      "img": "/assets/img/offers/rafeea-03.webp",
-      "thumb": "/assets/img/offers/rafeea-03-t.webp"
-    },
-    {
-      "n": 4,
-      "title": "الدواجن واللحوم والأجبان",
-      "summary": "دجاج مجمد ومبرد، لحوم طازجة، أجبان وشبيه جبنة ولبنة",
-      "img": "/assets/img/offers/rafeea-04.webp",
-      "thumb": "/assets/img/offers/rafeea-04-t.webp"
-    },
-    {
-      "n": 5,
-      "title": "الأجبان واللحوم الباردة",
-      "summary": "أجبان بأنواعها، مرتديلا، بسطرمة ومقبلات",
-      "img": "/assets/img/offers/rafeea-05.webp",
-      "thumb": "/assets/img/offers/rafeea-05-t.webp"
-    },
-    {
-      "n": 6,
-      "title": "المخللات والمربى والمعجنات",
-      "summary": "مخللات، مربى، زيتون، بيتزا ومناقيش",
-      "img": "/assets/img/offers/rafeea-06.webp",
-      "thumb": "/assets/img/offers/rafeea-06-t.webp"
-    },
-    {
-      "n": 7,
-      "title": "الخضار والفواكه",
-      "summary": "خضار وفواكه طازجة بأسعار الكيلو",
-      "img": "/assets/img/offers/rafeea-07.webp",
-      "thumb": "/assets/img/offers/rafeea-07-t.webp"
-    },
-    {
-      "n": 8,
-      "title": "المكسرات والشيبس",
-      "summary": "مكسرات باجة، شيبس وسناكس",
-      "img": "/assets/img/offers/rafeea-08.webp",
-      "thumb": "/assets/img/offers/rafeea-08-t.webp"
-    },
-    {
-      "n": 9,
-      "title": "البسكويت والشوكولاتة",
-      "summary": "بسكويت، ويفر وشوكولاتة بأنواعها",
-      "img": "/assets/img/offers/rafeea-09.webp",
-      "thumb": "/assets/img/offers/rafeea-09-t.webp"
-    },
-    {
-      "n": 10,
-      "title": "المشروبات والمناديل والعناية",
-      "summary": "مشروبات غازية، مناديل وشامبو",
-      "img": "/assets/img/offers/rafeea-10.webp",
-      "thumb": "/assets/img/offers/rafeea-10-t.webp"
-    }
-  ],
-  "categories": [
-    {
-      "id": "rice",
-      "title": "الأرز والسكر والمعكرونة",
-      "page": 2
-    }
-  ],
-  "products": [
-    {
-      "cat": "rice",
-      "name": "أرز أبو كاس 10 كجم",
-      "now": 66.8,
-      "was": 80.95,
-      "img": "/assets/img/offers/p/r2-f1.webp",
-      "featured": true
-    },
-    {
-      "cat": "rice",
-      "name": "أرز بابل مزة باكستاني 10 كجم",
-      "now": 38.8,
-      "was": 58.0,
-      "img": "/assets/img/offers/p/r2-f2.webp",
-      "featured": true
-    },
-    {
-      "cat": "rice",
-      "name": "مكرونة بركة السنابل أنابيب 450 جم",
-      "now": 1.25,
-      "was": 3.5,
-      "img": "/assets/img/offers/p/r2-f3.webp",
-      "featured": true
-    },
-    {
-      "cat": "rice",
-      "name": "مكرونة بركة السنابل خواتم مخططة 450 جم",
-      "now": 1.25,
-      "was": 3.5,
-      "img": "/assets/img/offers/p/r2-f4.webp",
-      "featured": true
-    },
-    {
-      "cat": "rice",
-      "name": "شعيرية بركة السنابل مقطعة 450 جم",
-      "now": 1.25,
-      "was": 3.5,
-      "img": "/assets/img/offers/p/r2-f5.webp",
-      "featured": true
-    },
-    {
-      "cat": "rice",
-      "name": "أرز صن وايت 5 كجم",
-      "now": 34.8,
-      "was": 48.0
-    },
-    {
-      "cat": "rice",
-      "name": "أرز صن وايت كالروز 2 كجم",
-      "now": 17.95,
-      "was": 20.0
-    },
-    {
-      "cat": "rice",
-      "name": "أرز باب الهند 10 كجم",
-      "now": 128.0,
-      "was": 130.0
-    },
-    {
-      "cat": "rice",
-      "name": "أرز الوليمة 10 كجم",
-      "now": 64.95,
-      "was": 89.0
-    },
-    {
-      "cat": "rice",
-      "name": "أرز الوليمة 5 كجم",
-      "now": 34.8,
-      "was": 48.0
-    },
-    {
-      "cat": "rice",
-      "name": "أرز أبو كاس 5 كجم",
-      "now": 34.95,
-      "was": 46.95
-    },
-    {
-      "cat": "rice",
-      "name": "أرز البطي 10 كجم",
-      "now": 49.8,
-      "was": 55.0
-    },
-    {
-      "cat": "rice",
-      "name": "أرز الفخامة مزة 5 كجم",
-      "now": 28.8,
-      "was": 36.5
-    },
-    {
-      "cat": "rice",
-      "name": "أرز بهاي بهاي سيلا 5 كجم",
-      "now": 19.95,
-      "was": 22.0
-    },
-    {
-      "cat": "rice",
-      "name": "العزيمة سكر ناعم 5 كجم",
-      "now": 14.95,
-      "was": 18.0
-    },
-    {
-      "cat": "rice",
-      "name": "الأسرة سكر ناعم 5 كجم",
-      "now": 23.0,
-      "was": 25.0
-    },
-    {
-      "cat": "rice",
-      "name": "العزيمة سكر ناعم 10 كجم",
-      "now": 24.95,
-      "was": 29.95
-    }
-  ]
+ "branch": "الرفيعة",
+ "city": "الرياض",
+ "title": "عروض ساعات السعادة",
+ "hours": "يومياً من 6 صباحاً إلى 6 مساءً",
+ "duration": "لمدة 7 أيام",
+ "headline": "حتى 50%",
+ "phone": "+966599232857",
+ "pdf": "/assets/files/point-rafeea-happy-hour-offers.pdf",
+ "pages": [
+  {
+   "n": 1,
+   "title": "غلاف العروض",
+   "summary": "وفّر حتى 50% على أقوى العروض",
+   "img": "/assets/img/offers/rafeea-01.webp",
+   "thumb": "/assets/img/offers/rafeea-01-t.webp"
+  },
+  {
+   "n": 2,
+   "title": "الأرز والسكر والمعكرونة",
+   "summary": "أرز بأنواعه وأحجامه، سكر، مكرونة وشعيرية",
+   "img": "/assets/img/offers/rafeea-02.webp",
+   "thumb": "/assets/img/offers/rafeea-02-t.webp"
+  },
+  {
+   "n": 3,
+   "title": "الزيوت والشاي والقهوة",
+   "summary": "زيوت طبخ، شاي، قهوة، كوفي ميت، إندومي وحليب",
+   "img": "/assets/img/offers/rafeea-03.webp",
+   "thumb": "/assets/img/offers/rafeea-03-t.webp"
+  },
+  {
+   "n": 4,
+   "title": "الدواجن واللحوم والأجبان",
+   "summary": "دجاج مجمد ومبرد، لحوم طازجة، أجبان وشبيه جبنة ولبنة",
+   "img": "/assets/img/offers/rafeea-04.webp",
+   "thumb": "/assets/img/offers/rafeea-04-t.webp"
+  },
+  {
+   "n": 5,
+   "title": "الأجبان واللحوم الباردة",
+   "summary": "أجبان بأنواعها، مرتديلا، بسطرمة ومقبلات",
+   "img": "/assets/img/offers/rafeea-05.webp",
+   "thumb": "/assets/img/offers/rafeea-05-t.webp"
+  },
+  {
+   "n": 6,
+   "title": "المخللات والمربى والمعجنات",
+   "summary": "مخللات، مربى، زيتون، بيتزا ومناقيش",
+   "img": "/assets/img/offers/rafeea-06.webp",
+   "thumb": "/assets/img/offers/rafeea-06-t.webp"
+  },
+  {
+   "n": 7,
+   "title": "الخضار والفواكه",
+   "summary": "خضار وفواكه طازجة بأسعار الكيلو",
+   "img": "/assets/img/offers/rafeea-07.webp",
+   "thumb": "/assets/img/offers/rafeea-07-t.webp"
+  },
+  {
+   "n": 8,
+   "title": "المكسرات والشيبس",
+   "summary": "مكسرات باجة، شيبس وسناكس",
+   "img": "/assets/img/offers/rafeea-08.webp",
+   "thumb": "/assets/img/offers/rafeea-08-t.webp"
+  },
+  {
+   "n": 9,
+   "title": "البسكويت والشوكولاتة",
+   "summary": "بسكويت، ويفر وشوكولاتة بأنواعها",
+   "img": "/assets/img/offers/rafeea-09.webp",
+   "thumb": "/assets/img/offers/rafeea-09-t.webp"
+  },
+  {
+   "n": 10,
+   "title": "المشروبات والمناديل والعناية",
+   "summary": "مشروبات غازية، مناديل وشامبو",
+   "img": "/assets/img/offers/rafeea-10.webp",
+   "thumb": "/assets/img/offers/rafeea-10-t.webp"
+  }
+ ],
+ "categories": [
+  {
+   "id": "rice",
+   "title": "الأرز والسكر والمعكرونة",
+   "page": 2
+  },
+  {
+   "id": "oils",
+   "title": "الزيوت والشاي والقهوة",
+   "page": 3
+  },
+  {
+   "id": "meat",
+   "title": "الدواجن واللحوم",
+   "page": 4
+  },
+  {
+   "id": "cheese",
+   "title": "الأجبان واللحوم الباردة",
+   "page": 5
+  },
+  {
+   "id": "pickles",
+   "title": "المخللات والمربى والمعجنات",
+   "page": 6
+  },
+  {
+   "id": "veg",
+   "title": "الخضار والفواكه",
+   "page": 7
+  },
+  {
+   "id": "snacks",
+   "title": "المكسرات والشيبس",
+   "page": 8
+  },
+  {
+   "id": "biscuits",
+   "title": "البسكويت والشوكولاتة",
+   "page": 9
+  },
+  {
+   "id": "drinks",
+   "title": "المشروبات والمناديل والعناية",
+   "page": 10
+  }
+ ],
+ "products": [
+  {
+   "cat": "rice",
+   "name": "أرز أبو كاس 10 كجم",
+   "now": 66.8,
+   "was": 80.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/001.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "مكرونة بركة السنابل أنابيب 450 جم",
+   "now": 1.25,
+   "was": 3.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/003.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "مكرونة بركة السنابل خواتم مخططة 450 جم",
+   "now": 1.25,
+   "was": 3.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/004.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "شعيرية بركة السنابل مقطعة 450 جم",
+   "now": 1.25,
+   "was": 3.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/005.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز الوليمة 5 كجم",
+   "now": 34.8,
+   "was": 48.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/010.webp",
+   "featured": true
+  },
+  {
+   "cat": "rice",
+   "name": "أرز صن وايت 5 كجم",
+   "now": 34.8,
+   "was": 48.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/006.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز صن وايت كالروز 2 كجم",
+   "now": 17.95,
+   "was": 20.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/007.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز باب الهند 10 كجم",
+   "now": 128.0,
+   "was": 130.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/008.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز الوليمة 10 كجم",
+   "now": 64.95,
+   "was": 89.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/009.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز أبو كاس 5 كجم",
+   "now": 34.95,
+   "was": 46.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/011.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز البطي 10 كجم",
+   "now": 49.8,
+   "was": 55.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/012.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز الفخامة مزة 5 كجم",
+   "now": 28.8,
+   "was": 36.5,
+   "kg": false,
+   "img": "/assets/img/offers/p/013.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز بهاي بهاي سيلا 5 كجم",
+   "now": 19.95,
+   "was": 22.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/014.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "العزيمة سكر ناعم 5 كجم",
+   "now": 14.95,
+   "was": 18.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/015.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "الأسرة سكر ناعم 5 كجم",
+   "now": 23.0,
+   "was": 25.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/016.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "العزيمة سكر ناعم 10 كجم",
+   "now": 24.95,
+   "was": 29.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/017.webp"
+  },
+  {
+   "cat": "rice",
+   "name": "أرز باكستاني سيلا بهاي بهاي 10 كجم",
+   "now": 38.8,
+   "was": 49.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/n-bhai10.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "كوفي ميت نستله 400 جم",
+   "now": 14.95,
+   "was": 21.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/019.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "ليبتون العلامة الصفراء ناعم 400 جم",
+   "now": 16.8,
+   "was": 25.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/020.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "شاي ريد ليبل ثقيل 100 كيس",
+   "now": 11.95,
+   "was": 16.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/021.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "الصافي حليب 1 لتر × 12",
+   "now": 48.95,
+   "was": 72.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/022.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "الرائد زيت أولين النخيل النقي 1.5 لتر",
+   "now": 11.5,
+   "was": 14.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-alrayed.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "عافية زيت دوار الشمس 1.5 لتر",
+   "now": 19.95,
+   "was": 21.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/023.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "زيت نسرين 1.5 لتر",
+   "now": 11.5,
+   "was": 13.99,
+   "kg": false,
+   "img": "/assets/img/offers/p/025.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "دلال زيت نباتي صافي 1.5 لتر",
+   "now": 10.95,
+   "was": 13.99,
+   "kg": false,
+   "img": "/assets/img/offers/p/026.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "زيت زهرتي دوار الشمس 1.5 لتر",
+   "now": 13.95,
+   "was": 19.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/027.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "الشروق زيت دوار الشمس 1.5 لتر",
+   "now": 14.95,
+   "was": 16.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/028.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "نور زيت دوار الشمس 1.5 لتر × 2",
+   "now": 34.95,
+   "was": 42.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/029.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "نادك زيت زيتون عضوي 250 مل",
+   "now": 17.95,
+   "was": 20.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/030.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "نادك زيت زيتون عضوي 500 مل",
+   "now": 30.5,
+   "was": 32.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/031.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "إندومي خضار 70 جم × 5",
+   "now": 5.5,
+   "was": 7.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/032.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "إندومي دجاج نكهة خاصة 70 جم × 5",
+   "now": 5.5,
+   "was": 7.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/033.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "إندومي شعيرية مقلية 80 جم × 5",
+   "now": 5.5,
+   "was": 7.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/034.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "إندومي كاري دجاج 70 جم × 5",
+   "now": 5.5,
+   "was": 7.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/035.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "إندومي نكهة دجاج بلدي 70 جم × 5",
+   "now": 5.5,
+   "was": 7.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/036.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "قهوة ماكسويل هاوس 295 جم",
+   "now": 31.0,
+   "was": 37.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/037.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "نسكافيه كلاسيك 190 جم",
+   "now": 23.95,
+   "was": 28.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/038.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "ليبتون شاي أخضر صافي 25 كيس",
+   "now": 9.95,
+   "was": 12.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/039.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "ليبتون العلامة الصفراء 100 كيس",
+   "now": 14.8,
+   "was": 17.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/040.webp"
+  },
+  {
+   "cat": "oils",
+   "name": "زيت صني دوار الشمس 1.5 لتر",
+   "now": 11.5,
+   "was": 14.75,
+   "kg": false,
+   "img": "/assets/img/offers/p/018.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "أمريكانا ستربس دجاج حار 750 جم",
+   "now": 32.95,
+   "was": 43.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/041.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "شبيه جبنة موزاريلا تشيز لاند",
+   "now": 26.8,
+   "was": 34.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/042.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "جبنة ملح خفيف تشيز لاند",
+   "now": 19.95,
+   "was": 27.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/043.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "لبنة لازيتا تركي المدينة",
+   "now": 19.95,
+   "was": 27.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/044.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "أمريكانا ستربس الدجاج 750 جم",
+   "now": 32.95,
+   "was": 37.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/045.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "دجاج دو مجمد 1000 جم",
+   "now": 14.95,
+   "was": null,
+   "kg": false,
+   "img": "/assets/img/offers/p/046.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "دجاج دو مجمد 1200 جم",
+   "now": 15.95,
+   "was": null,
+   "kg": false,
+   "img": "/assets/img/offers/p/047.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "الفروج الذهبي مبرد 1000 جم",
+   "now": 15.95,
+   "was": 18.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/048.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "الفروج الذهبي مبرد 1100 جم",
+   "now": 17.95,
+   "was": 22.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/049.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "عجل بلدي بدون عظم",
+   "now": 54.95,
+   "was": 69.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/050.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "خروف نعيمي",
+   "now": 85.95,
+   "was": 99.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/051.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "خروف بربري",
+   "now": 55.95,
+   "was": 65.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/052.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "باكستاني بالعظم",
+   "now": 34.95,
+   "was": 38.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/053.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "مفروم برازيلي",
+   "now": 34.95,
+   "was": 38.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/054.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "تيس مبرد",
+   "now": 38.95,
+   "was": 44.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/055.webp"
+  },
+  {
+   "cat": "meat",
+   "name": "سجق",
+   "now": 28.95,
+   "was": 36.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/056.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "شبيه جبنة دمياطي العلا",
+   "now": 11.95,
+   "was": 19.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/060.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "شبيه جبنة دبل كريم العلا",
+   "now": 11.95,
+   "was": 19.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/061.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "شبيه جبنة اسكندراني العلا",
+   "now": 11.95,
+   "was": 19.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/062.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "شبيه جبنة فيتا تشيز لاند العلا",
+   "now": 11.95,
+   "was": 19.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/063.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة هنجاري",
+   "now": 17.95,
+   "was": 21.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/064.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة نابلسية استرا",
+   "now": 41.95,
+   "was": 49.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/065.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة رومي",
+   "now": 35.95,
+   "was": 49.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/066.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة قريش شهد",
+   "now": 19.95,
+   "was": 27.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/067.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة مدخن هولندي",
+   "now": 46.95,
+   "was": 59.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/068.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة شيدر أبيض",
+   "now": 45.95,
+   "was": 55.0,
+   "kg": true,
+   "img": "/assets/img/offers/p/069.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة حلوم استرا",
+   "now": 41.95,
+   "was": 49.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/070.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة جرانا مورفيا",
+   "now": 68.95,
+   "was": 74.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/071.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "تركي بيبي شرائح فاكيوم 200 جم",
+   "now": 14.5,
+   "was": 17.5,
+   "kg": false,
+   "img": "/assets/img/offers/p/072.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "بسطرمة الفلة",
+   "now": 95.95,
+   "was": 129.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/073.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "مرتديلا سنيورة دجاج سادة",
+   "now": 28.95,
+   "was": 32.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/074.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "مرتديلا سنيورة دجاج زيتون",
+   "now": 28.95,
+   "was": 32.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/075.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "مرتديلا سنيورة بقري سادة",
+   "now": 29.95,
+   "was": 34.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/076.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "مرتديلا سنيورة بقري زيتون",
+   "now": 29.95,
+   "was": 34.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/077.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "مرتديلا سنيورة بقري فلفل",
+   "now": 29.95,
+   "was": 34.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/078.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة جودة كمون",
+   "now": 65.95,
+   "was": 79.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/057.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة عكاوي استرا",
+   "now": 41.95,
+   "was": 49.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/058.webp"
+  },
+  {
+   "cat": "cheese",
+   "name": "جبنة شيدر أصفر",
+   "now": 45.95,
+   "was": 55.0,
+   "kg": true,
+   "img": "/assets/img/offers/p/059.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "زيتون معطون",
+   "now": 16.95,
+   "was": 24.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/079.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "بوليف",
+   "now": 9.95,
+   "was": 14.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/080.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "حلاوة سادة",
+   "now": 15.95,
+   "was": 22.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/081.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مناقيش محمرة",
+   "now": 3.95,
+   "was": 5.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/082.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مناقيش لبنة زعتر",
+   "now": 3.95,
+   "was": 5.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/083.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مخلل ليمون",
+   "now": 17.95,
+   "was": 24.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/084.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مخلل خيار",
+   "now": 14.95,
+   "was": 19.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/085.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مخلل بصل",
+   "now": 14.95,
+   "was": 19.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/086.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "زيتون أخضر مصري",
+   "now": 18.95,
+   "was": 21.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/087.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مربى فراولة",
+   "now": 15.95,
+   "was": 19.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/088.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مربى توت",
+   "now": 15.95,
+   "was": 19.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/089.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مربى مشمش",
+   "now": 15.95,
+   "was": 19.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/090.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مربى تين",
+   "now": 15.95,
+   "was": 19.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/091.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "بيتزا بيبروني",
+   "now": 15.95,
+   "was": 19.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/092.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "بيتزا رانش دجاج",
+   "now": 15.95,
+   "was": 19.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/093.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "بيتزا مارجريتا",
+   "now": 13.95,
+   "was": 19.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/094.webp"
+  },
+  {
+   "cat": "pickles",
+   "name": "مناقيش جبنة عكاوي",
+   "now": 4.95,
+   "was": 6.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/095.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "طماطم",
+   "now": 3.95,
+   "was": 7.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/096.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "بطاطس",
+   "now": 2.95,
+   "was": 5.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/097.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "زهرة",
+   "now": 3.95,
+   "was": 6.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/098.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "بصل",
+   "now": 3.95,
+   "was": 6.95,
+   "kg": true,
+   "featured": true,
+   "img": "/assets/img/offers/p/099.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "جزر مستورد",
+   "now": 5.95,
+   "was": 8.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/100.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "كوسة",
+   "now": 5.95,
+   "was": 7.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/101.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "مانجو مصري",
+   "now": 7.95,
+   "was": 12.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/102.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "برتقال عصير أفريقي",
+   "now": 5.95,
+   "was": 7.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/103.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "يوسف أفندي مستورد",
+   "now": 7.95,
+   "was": 11.5,
+   "kg": true,
+   "img": "/assets/img/offers/p/104.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "تفاح كولد روز الذهبي",
+   "now": 8.95,
+   "was": 12.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/105.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "جريب فروت",
+   "now": 4.95,
+   "was": 6.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/106.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "عنب أخضر مستورد",
+   "now": 11.95,
+   "was": 17.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/107.webp"
+  },
+  {
+   "cat": "veg",
+   "name": "رمان يمني",
+   "now": 6.95,
+   "was": 9.95,
+   "kg": true,
+   "img": "/assets/img/offers/p/108.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "البطل بطاطس أنواع 110 جم",
+   "now": 4.25,
+   "was": 6.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/109.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "ليز بطاطس أنواع",
+   "now": 6.8,
+   "was": 8.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/110.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "البطل فشار كراميل",
+   "now": 5.8,
+   "was": 7.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/111.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "مرامي شيبس حار 100 جم",
+   "now": 5.5,
+   "was": 6.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/113.webp",
+   "featured": true
+  },
+  {
+   "cat": "snacks",
+   "name": "مرامي شيبس باربكيو 100 جم",
+   "now": 5.5,
+   "was": 6.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/114.webp",
+   "featured": true
+  },
+  {
+   "cat": "snacks",
+   "name": "مرامي شيبس كاتشب 100 جم",
+   "now": 5.5,
+   "was": 6.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/115.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "مرامي شيبس ملح 100 جم",
+   "now": 5.5,
+   "was": 6.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/116.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "مرامي شيبس جبنة فرنسية 100 جم",
+   "now": 5.5,
+   "was": 6.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/117.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا مكسرات إكسترا 450 جم",
+   "now": 38.95,
+   "was": 42.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/118.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا ديلوكس مملح 450 جم",
+   "now": 46.95,
+   "was": 49.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/119.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا ديلوكس باربكيو 450 جم",
+   "now": 52.95,
+   "was": 55.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/120.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا إكسترا 280 جم",
+   "now": 28.75,
+   "was": 30.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/121.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا كاجو مملح 280 جم",
+   "now": 28.75,
+   "was": 30.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/122.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا مالح حلو 280 جم",
+   "now": 28.75,
+   "was": 30.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/123.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا فستق مملح 280 جم",
+   "now": 23.75,
+   "was": 25.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/124.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا ديلوكس مملح 280 جم",
+   "now": 28.75,
+   "was": 30.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/125.webp"
+  },
+  {
+   "cat": "snacks",
+   "name": "باجا ديلوكس باربكيو 280 جم",
+   "now": 28.75,
+   "was": 30.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/126.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ماكفيتيز دايجستيف داكنة 200 جم",
+   "now": 11.5,
+   "was": 13.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/129.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "لواكر جاردينا جوز الهند 38 جم",
+   "now": 4.75,
+   "was": 7.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/130.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "لواكر كلاسيك حليب 45 جم",
+   "now": 4.25,
+   "was": 6.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/131.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "تيشوب بسكويت مملح 75 جم 10+2",
+   "now": 9.95,
+   "was": 15.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-tishop.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ميموريز بسكويت شاي 150 جم × 12",
+   "now": 16.8,
+   "was": 24.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-memories150.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "أولكر بسكويت ساندوتش 24 حبة",
+   "now": 14.95,
+   "was": 18.95,
+   "kg": false,
+   "img": "/assets/img/offers/p/132.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "أولكر كت كات 24 جم × 12",
+   "now": 9.95,
+   "was": 13.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/133.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ماكفيتيز دايجستيف 250 جم",
+   "now": 7.5,
+   "was": 9.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/134.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ماكفيتيز دايجستيف 400 جم",
+   "now": 14.5,
+   "was": 16.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/135.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ماكفيتيز دايجستيف لايت 400 جم",
+   "now": 14.5,
+   "was": 16.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/136.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ماكفيتيز دايجستيف لايت 250 جم",
+   "now": 11.75,
+   "was": 13.25,
+   "kg": false,
+   "img": "/assets/img/offers/p/137.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "ماكفيتيز دايجستيف بالحليب 300 جم",
+   "now": 15.95,
+   "was": 18.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/138.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "لواكر كلاسيك شوكولاتة مزدوجة 45 جم",
+   "now": 4.25,
+   "was": 6.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/139.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "لواكر ساندويتش شوكولاتة 75 جم",
+   "now": 7.5,
+   "was": 10.5,
+   "kg": false,
+   "img": "/assets/img/offers/p/140.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "لواكر ساندويتش بندق 75 جم",
+   "now": 7.5,
+   "was": 10.5,
+   "kg": false,
+   "img": "/assets/img/offers/p/141.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "لواكر كلاسيك نابوليتانر 90 جم",
+   "now": 7.5,
+   "was": 10.5,
+   "kg": false,
+   "img": "/assets/img/offers/p/142.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "سنيكرز ميني 150 جم",
+   "now": 16.95,
+   "was": 19.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/143.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "جالكسي شوكولاتة داكنة 40 جم",
+   "now": 5.0,
+   "was": 6.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/144.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "جالكسي شوكولاتة بيضاء 38 جم",
+   "now": 5.25,
+   "was": 5.75,
+   "kg": false,
+   "img": "/assets/img/offers/p/145.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "جالكسي كرسبي 16 جم",
+   "now": 1.75,
+   "was": 2.25,
+   "kg": false,
+   "img": "/assets/img/offers/p/146.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "مارس ميني 150 جم",
+   "now": 16.95,
+   "was": 19.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/147.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "باونتي ميني 150 جم",
+   "now": 16.95,
+   "was": 19.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/148.webp"
+  },
+  {
+   "cat": "biscuits",
+   "name": "تويكس ميني 150 جم",
+   "now": 16.95,
+   "was": 19.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/149.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "بيبسي 2 لتر",
+   "now": 7.5,
+   "was": 9.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/150.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "سفن أب 2 لتر",
+   "now": 7.5,
+   "was": 9.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/151.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "فاين سوبر تاول 2+6",
+   "now": 19.95,
+   "was": 25.0,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/152.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "مناديل فاين فلافي 150 منديل × 10",
+   "now": 19.95,
+   "was": 26.95,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/154.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "فاين ميجا رول 300",
+   "now": 10.95,
+   "was": 15.5,
+   "kg": false,
+   "featured": true,
+   "img": "/assets/img/offers/p/n-finemega.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "ميرندا حمضيات 2 لتر",
+   "now": 7.5,
+   "was": 9.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/155.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "ماونتن ديو 2 لتر",
+   "now": 7.5,
+   "was": 9.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/156.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "بيبسي دايت 1 لتر",
+   "now": 4.25,
+   "was": 5.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/157.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "سفن أب 1 لتر",
+   "now": 4.25,
+   "was": 5.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/158.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "ميرندا حمضيات 1 لتر",
+   "now": 4.25,
+   "was": 5.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/159.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "ماونتن ديو 1 لتر",
+   "now": 4.25,
+   "was": 5.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/160.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "ميرندا فراولة 1 لتر",
+   "now": 4.25,
+   "was": 5.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/161.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "ميرندا تفاح أخضر 1 لتر",
+   "now": 4.25,
+   "was": 5.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/162.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "ميرندا برتقال 1 لتر",
+   "now": 4.25,
+   "was": 5.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/163.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "سانسلك شامبو إصلاح فوري 400 مل",
+   "now": 15.95,
+   "was": 18.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/164.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "سانسلك شامبو لتساقط الشعر 400 مل",
+   "now": 15.95,
+   "was": 18.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/165.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "سانسلك شامبو أمينو سيلك 400 مل",
+   "now": 15.95,
+   "was": 18.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/166.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "سانسلك شامبو قوة ولمعان 400 مل",
+   "now": 15.95,
+   "was": 18.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/167.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "سانسلك شامبو أسود لامع 400 مل",
+   "now": 15.95,
+   "was": 18.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/168.webp"
+  },
+  {
+   "cat": "drinks",
+   "name": "مناديل مشوار 180 منديل × 10",
+   "now": 25.0,
+   "was": 30.0,
+   "kg": false,
+   "img": "/assets/img/offers/p/169.webp"
+  }
+ ],
+ "hero": {
+  "cart": "/assets/img/offers/hero-cart.webp",
+  "banner": "/assets/img/offers/cover-banner.webp"
+ }
 }
