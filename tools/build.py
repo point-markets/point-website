@@ -347,8 +347,7 @@ lb.addEventListener('click',function(e){{if(e.target===lb)close()}});
 document.addEventListener('keydown',function(e){{if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(i+1);if(e.key==='ArrowRight')show(i-1)}});}})();</script>'''
     return page(f"{data['title']} - فرع {data['branch']} | بوينت ماركت", f"كتالوج {data['title']} من بوينت ماركت فرع {data['branch']} في {data['city']}", url, body,
                 {'@context': 'https://schema.org', '@type': 'WebPage', 'name': 'العروض', 'url': url}, SITE + '/assets/img/hero.jpg') \
-        .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">') \
-        .replace('index, follow, max-image-preview:large', 'noindex, nofollow')
+        .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">')
 
 
 def load_branches():
@@ -628,8 +627,8 @@ def _build(out, posts, preview):
     for d in legal.PAGES:
         write(f'{out}/{d["slug"]}/index.html', legal_page(d))
     write(f'{out}/branches/index.html', branches_page())
+    write(f'{out}/offers/index.html', offers_page())
     if preview:
-        write(f'{out}/offers/index.html', offers_page())  # test build only until offers go live
         idx = open(f'{out}/index.html', encoding='utf-8').read()
         write(f'{out}/index.html', idx.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"'))
         # noindex is enforced by meta tag + X-Robots-Tag header (crawlers must be allowed to see it)
@@ -641,7 +640,7 @@ def _build(out, posts, preview):
     today = datetime.date.today().isoformat()
     urls = [(SITE + '/', today), (SITE + '/blog/', max([p['modified'][:10] for p in pub] or [today]))] + \
            [(f"{SITE}/blog/category/{c[0]}/", today) for c in CATS] + \
-           [(f"{SITE}/{d['slug']}/", legal.UPDATED) for d in legal.PAGES] + [(SITE + '/branches/', today)] + \
+           [(f"{SITE}/{d['slug']}/", legal.UPDATED) for d in legal.PAGES] + [(SITE + '/branches/', today), (SITE + '/offers/', today)] + \
            [(f"{SITE}/blog/{p['slug']}/", p['modified'][:10]) for p in pub]
     write(f'{out}/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
           + ''.join(f'  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n' for u, d in urls) + '</urlset>\n')
