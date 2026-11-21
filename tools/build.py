@@ -347,7 +347,8 @@ lb.addEventListener('click',function(e){{if(e.target===lb)close()}});
 document.addEventListener('keydown',function(e){{if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(i+1);if(e.key==='ArrowRight')show(i-1)}});}})();</script>'''
     return page(f"{data['title']} - فرع {data['branch']} | بوينت ماركت", f"كتالوج {data['title']} من بوينت ماركت فرع {data['branch']} في {data['city']}", url, body,
                 {'@context': 'https://schema.org', '@type': 'WebPage', 'name': 'العروض', 'url': url}, SITE + '/assets/img/hero.jpg') \
-        .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">')
+        .replace('<a href="/blog/" class="active" aria-current="page">', '<a href="/blog/">') \
+        .replace('<a href="/offers/">', '<a href="/offers/" class="active" aria-current="page">')
 
 
 def load_branches():
